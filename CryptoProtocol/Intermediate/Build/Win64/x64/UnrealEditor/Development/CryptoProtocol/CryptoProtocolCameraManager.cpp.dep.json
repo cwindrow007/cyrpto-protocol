@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\blake\\documents\\unreal projects\\cryptoprotocol\\source\\cryptoprotocol\\cryptoprotocolcameramanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\blake\\documents\\unreal projects\\cryptoprotocol\\intermediate\\build\\win64\\x64\\cryptoprotocoleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\blake\\documents\\unreal projects\\cryptoprotocol\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cryptoprotocol\\definitions.cryptoprotocol.h",
+            "c:\\users\\blake\\documents\\unreal projects\\cryptoprotocol\\source\\cryptoprotocol\\cryptoprotocolcameramanager.h",
+            "c:\\users\\blake\\documents\\unreal projects\\cryptoprotocol\\intermediate\\build\\win64\\unrealeditor\\inc\\cryptoprotocol\\uht\\cryptoprotocolcameramanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

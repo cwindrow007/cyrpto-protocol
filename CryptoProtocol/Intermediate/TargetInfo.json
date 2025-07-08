@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CryptoProtocol",
+			"Path": "..\\Source\\CryptoProtocol.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CryptoProtocolEditor",
+			"Path": "..\\Source\\CryptoProtocolEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
