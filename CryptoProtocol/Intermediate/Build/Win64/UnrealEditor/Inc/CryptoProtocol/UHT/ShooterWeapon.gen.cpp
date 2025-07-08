@@ -494,14 +494,14 @@ AShooterWeapon::~AShooterWeapon() {}
 // ********** End Class AShooterWeapon *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterWeapon_h__Script_CryptoProtocol_Statics
+struct Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterWeapon_h__Script_CryptoProtocol_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AShooterWeapon, AShooterWeapon::StaticClass, TEXT("AShooterWeapon"), &Z_Registration_Info_UClass_AShooterWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterWeapon), 1762118239U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterWeapon_h__Script_CryptoProtocol_2993926120(TEXT("/Script/CryptoProtocol"),
-	Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterWeapon_h__Script_CryptoProtocol_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterWeapon_h__Script_CryptoProtocol_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterWeapon_h__Script_CryptoProtocol_2993926120(TEXT("/Script/CryptoProtocol"),
+	Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterWeapon_h__Script_CryptoProtocol_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterWeapon_h__Script_CryptoProtocol_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

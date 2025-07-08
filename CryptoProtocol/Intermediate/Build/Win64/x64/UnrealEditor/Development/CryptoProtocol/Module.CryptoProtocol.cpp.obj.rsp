@@ -1,12 +1,12 @@
-"C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Module.CryptoProtocol.cpp"
-@"C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/CryptoProtocol.Shared.rsp"
-/FI"C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/CryptoProtocolEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Definitions.CryptoProtocol.h"
-/Yu"C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/CryptoProtocolEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/CryptoProtocolEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Module.CryptoProtocol.cpp.obj"
-/experimental:log "C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Module.CryptoProtocol.cpp.sarif"
-/sourceDependencies "C:/Users/Blake/Documents/Unreal Projects/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Module.CryptoProtocol.cpp.dep.json"
+"P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Module.CryptoProtocol.cpp"
+@"P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/CryptoProtocol.Shared.rsp"
+/FI"P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/CryptoProtocolEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Definitions.CryptoProtocol.h"
+/Yu"P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/CryptoProtocolEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/CryptoProtocolEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Module.CryptoProtocol.cpp.obj"
+/experimental:log "P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Module.CryptoProtocol.cpp.sarif"
+/sourceDependencies "P:/CRYPTOProtocol/cyrpto-protocol/CryptoProtocol/Intermediate/Build/Win64/x64/UnrealEditor/Development/CryptoProtocol/Module.CryptoProtocol.cpp.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

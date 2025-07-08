@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class ACryptoProtocolCameraManager *********************************************
 CRYPTOPROTOCOL_API UClass* Z_Construct_UClass_ACryptoProtocolCameraManager_NoRegister();
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACryptoProtocolCameraManager(); \
 	friend struct Z_Construct_UClass_ACryptoProtocolCameraManager_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ACryptoProtocolCameraManager)
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ACryptoProtocolCameraManager(ACryptoProtocolCameraManager&&) = delete; \
 	ACryptoProtocolCameraManager(const ACryptoProtocolCameraManager&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~ACryptoProtocolCameraManager();
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_13_PROLOG
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_GENERATED_BODY \
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_13_PROLOG
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_ENHANCED_CONSTRUCTORS \
+	FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_INCLASS_NO_PURE_DECLS \
+	FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class ACryptoProtocolCameraManager;
 // ********** End Class ACryptoProtocolCameraManager ***********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h
+#define CURRENT_FILE_ID FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCameraManager_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

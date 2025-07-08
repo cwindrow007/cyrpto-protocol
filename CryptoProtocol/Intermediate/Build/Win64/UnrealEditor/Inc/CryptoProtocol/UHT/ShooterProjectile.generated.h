@@ -20,14 +20,14 @@ class ACharacter;
 struct FHitResult;
 
 // ********** Begin Class AShooterProjectile *******************************************************
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDamageCharacter);
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_CALLBACK_WRAPPERS
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_CALLBACK_WRAPPERS
 CRYPTOPROTOCOL_API UClass* Z_Construct_UClass_AShooterProjectile_NoRegister();
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterProjectile(); \
 	friend struct Z_Construct_UClass_AShooterProjectile_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(AShooterProjectile)
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AShooterProjectile(AShooterProjectile&&) = delete; \
 	AShooterProjectile(const AShooterProjectile&) = delete; \
@@ -48,14 +48,14 @@ public: \
 	NO_API virtual ~AShooterProjectile();
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_16_PROLOG
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_GENERATED_BODY \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_16_PROLOG
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_CALLBACK_WRAPPERS \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_INCLASS_NO_PURE_DECLS \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_ENHANCED_CONSTRUCTORS \
+	FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_CALLBACK_WRAPPERS \
+	FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_INCLASS_NO_PURE_DECLS \
+	FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -65,6 +65,6 @@ class AShooterProjectile;
 // ********** End Class AShooterProjectile *********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h
+#define CURRENT_FILE_ID FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterProjectile_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

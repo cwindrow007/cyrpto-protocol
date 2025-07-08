@@ -432,7 +432,7 @@ AShooterPickup::~AShooterPickup() {}
 // ********** End Class AShooterPickup *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics
+struct Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FWeaponTableRow::StaticStruct, Z_Construct_UScriptStruct_FWeaponTableRow_Statics::NewStructOps, TEXT("WeaponTableRow"), &Z_Registration_Info_UScriptStruct_FWeaponTableRow, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponTableRow), 3975046218U) },
@@ -441,9 +441,9 @@ struct Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoPro
 		{ Z_Construct_UClass_AShooterPickup, AShooterPickup::StaticClass, TEXT("AShooterPickup"), &Z_Registration_Info_UClass_AShooterPickup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterPickup), 489380159U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_3550586148(TEXT("/Script/CryptoProtocol"),
-	Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics::ScriptStructInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_3550586148(TEXT("/Script/CryptoProtocol"),
+	Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterPickup_h__Script_CryptoProtocol_Statics::ScriptStructInfo),
 	nullptr, 0);
 // ********** End Registration *********************************************************************
 

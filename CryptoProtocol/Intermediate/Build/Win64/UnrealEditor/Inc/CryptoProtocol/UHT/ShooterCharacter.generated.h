@@ -17,14 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Delegate FBulletCountUpdatedDelegate *******************************************
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_15_DELEGATE \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_15_DELEGATE \
 CRYPTOPROTOCOL_API void FBulletCountUpdatedDelegate_DelegateWrapper(const FMulticastScriptDelegate& BulletCountUpdatedDelegate, int32 MagazineSize, int32 Bullets);
 
 
 // ********** End Delegate FBulletCountUpdatedDelegate *********************************************
 
 // ********** Begin Class AShooterCharacter ********************************************************
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDoSwitchWeapon); \
 	DECLARE_FUNCTION(execDoStopFiring); \
 	DECLARE_FUNCTION(execDoStartFiring);
@@ -32,7 +32,7 @@ CRYPTOPROTOCOL_API void FBulletCountUpdatedDelegate_DelegateWrapper(const FMulti
 
 CRYPTOPROTOCOL_API UClass* Z_Construct_UClass_AShooterCharacter_NoRegister();
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_INCLASS_NO_PURE_DECLS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
 	friend struct Z_Construct_UClass_AShooterCharacter_Statics; \
@@ -44,7 +44,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AShooterCharacter*>(this); }
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_ENHANCED_CONSTRUCTORS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AShooterCharacter(AShooterCharacter&&) = delete; \
 	AShooterCharacter(const AShooterCharacter&) = delete; \
@@ -54,13 +54,13 @@ public: \
 	NO_API virtual ~AShooterCharacter();
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_22_PROLOG
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_GENERATED_BODY \
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_22_PROLOG
+#define FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_INCLASS_NO_PURE_DECLS \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_ENHANCED_CONSTRUCTORS \
+	FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_INCLASS_NO_PURE_DECLS \
+	FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -70,6 +70,6 @@ class AShooterCharacter;
 // ********** End Class AShooterCharacter **********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h
+#define CURRENT_FILE_ID FID_CryptoProtocol_Source_CryptoProtocol_Variant_Shooter_ShooterCharacter_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

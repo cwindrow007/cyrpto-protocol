@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ACryptoProtocolCharacter *************************************************
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDoJumpEnd); \
 	DECLARE_FUNCTION(execDoJumpStart); \
 	DECLARE_FUNCTION(execDoMove); \
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 CRYPTOPROTOCOL_API UClass* Z_Construct_UClass_ACryptoProtocolCharacter_NoRegister();
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_INCLASS_NO_PURE_DECLS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACryptoProtocolCharacter(); \
 	friend struct Z_Construct_UClass_ACryptoProtocolCharacter_Statics; \
@@ -37,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(ACryptoProtocolCharacter)
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_ENHANCED_CONSTRUCTORS \
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ACryptoProtocolCharacter(ACryptoProtocolCharacter&&) = delete; \
 	ACryptoProtocolCharacter(const ACryptoProtocolCharacter&) = delete; \
@@ -47,13 +47,13 @@ public: \
 	NO_API virtual ~ACryptoProtocolCharacter();
 
 
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_21_PROLOG
-#define FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_GENERATED_BODY \
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_21_PROLOG
+#define FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_INCLASS_NO_PURE_DECLS \
-	FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_ENHANCED_CONSTRUCTORS \
+	FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_INCLASS_NO_PURE_DECLS \
+	FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -63,6 +63,6 @@ class ACryptoProtocolCharacter;
 // ********** End Class ACryptoProtocolCharacter ***************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h
+#define CURRENT_FILE_ID FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolCharacter_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

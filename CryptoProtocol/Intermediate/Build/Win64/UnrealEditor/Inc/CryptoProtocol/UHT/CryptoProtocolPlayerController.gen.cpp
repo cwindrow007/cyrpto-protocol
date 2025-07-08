@@ -127,14 +127,14 @@ ACryptoProtocolPlayerController::~ACryptoProtocolPlayerController() {}
 // ********** End Class ACryptoProtocolPlayerController ********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolPlayerController_h__Script_CryptoProtocol_Statics
+struct Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolPlayerController_h__Script_CryptoProtocol_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ACryptoProtocolPlayerController, ACryptoProtocolPlayerController::StaticClass, TEXT("ACryptoProtocolPlayerController"), &Z_Registration_Info_UClass_ACryptoProtocolPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACryptoProtocolPlayerController), 377911177U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolPlayerController_h__Script_CryptoProtocol_1513174292(TEXT("/Script/CryptoProtocol"),
-	Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolPlayerController_h__Script_CryptoProtocol_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolPlayerController_h__Script_CryptoProtocol_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolPlayerController_h__Script_CryptoProtocol_1513174292(TEXT("/Script/CryptoProtocol"),
+	Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolPlayerController_h__Script_CryptoProtocol_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolPlayerController_h__Script_CryptoProtocol_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

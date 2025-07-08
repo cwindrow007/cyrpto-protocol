@@ -106,14 +106,14 @@ ACryptoProtocolGameMode::~ACryptoProtocolGameMode() {}
 // ********** End Class ACryptoProtocolGameMode ****************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolGameMode_h__Script_CryptoProtocol_Statics
+struct Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolGameMode_h__Script_CryptoProtocol_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ACryptoProtocolGameMode, ACryptoProtocolGameMode::StaticClass, TEXT("ACryptoProtocolGameMode"), &Z_Registration_Info_UClass_ACryptoProtocolGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACryptoProtocolGameMode), 42719273U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolGameMode_h__Script_CryptoProtocol_867944238(TEXT("/Script/CryptoProtocol"),
-	Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolGameMode_h__Script_CryptoProtocol_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Blake_Documents_Unreal_Projects_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolGameMode_h__Script_CryptoProtocol_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolGameMode_h__Script_CryptoProtocol_867944238(TEXT("/Script/CryptoProtocol"),
+	Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolGameMode_h__Script_CryptoProtocol_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CryptoProtocol_Source_CryptoProtocol_CryptoProtocolGameMode_h__Script_CryptoProtocol_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

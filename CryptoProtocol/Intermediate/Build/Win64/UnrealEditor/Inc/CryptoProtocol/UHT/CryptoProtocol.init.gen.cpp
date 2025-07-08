@@ -27,7 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeCryptoProtocol_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x5F0BBDBF,
+				0xF2D987E1,
 				0x44F004CB,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -35,5 +35,5 @@ void EmptyLinkFunctionForGeneratedCodeCryptoProtocol_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_CryptoProtocol.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CryptoProtocol(Z_Construct_UPackage__Script_CryptoProtocol, TEXT("/Script/CryptoProtocol"), Z_Registration_Info_UPackage__Script_CryptoProtocol, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x5F0BBDBF, 0x44F004CB));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CryptoProtocol(Z_Construct_UPackage__Script_CryptoProtocol, TEXT("/Script/CryptoProtocol"), Z_Registration_Info_UPackage__Script_CryptoProtocol, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xF2D987E1, 0x44F004CB));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

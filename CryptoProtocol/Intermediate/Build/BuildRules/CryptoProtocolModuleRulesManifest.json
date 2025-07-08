@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Blake\\Documents\\Unreal Projects\\CryptoProtocol\\Source\\CryptoProtocol\\CryptoProtocol.Build.cs",
-		"C:\\Users\\Blake\\Documents\\Unreal Projects\\CryptoProtocol\\Source\\CryptoProtocol.Target.cs",
-		"C:\\Users\\Blake\\Documents\\Unreal Projects\\CryptoProtocol\\Source\\CryptoProtocolEditor.Target.cs"
+		"P:\\CRYPTOProtocol\\cyrpto-protocol\\CryptoProtocol\\Source\\CryptoProtocol\\CryptoProtocol.Build.cs",
+		"P:\\CRYPTOProtocol\\cyrpto-protocol\\CryptoProtocol\\Source\\CryptoProtocol.Target.cs",
+		"P:\\CRYPTOProtocol\\cyrpto-protocol\\CryptoProtocol\\Source\\CryptoProtocolEditor.Target.cs"
 	],
 	"EngineVersion": "5.6.0"
 }
