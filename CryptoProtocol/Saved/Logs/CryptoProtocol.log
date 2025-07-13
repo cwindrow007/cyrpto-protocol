@@ -12752,3 +12752,471 @@ Sampler Limit: 32
 [2025.07.13-15.12.42:503][301]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.07.13-15.12.42:503][301]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.07.13-15.12.42:503][301]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2025.07.13-15.13.22:385][713]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.13-15.13.22:400][713]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.13-15.13.22:400][713]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.13-15.13.22:404][713]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 3.948 ms (total: 162.745 ms)
+[2025.07.13-15.13.22:404][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.13-15.13.22:405][713]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.13-15.13.22:437][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:437][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:437][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:441][713]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.13-15.13.22:448][713]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.814 ms (total: 375.527 ms)
+[2025.07.13-15.13.22:449][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043877s)
+[2025.07.13-15.13.22:449][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.043925s)
+[2025.07.13-15.13.22:485][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.07.13-15.13.22:487][713]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.13-15.13.22:489][713]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.13-15.13.22:489][713]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.13-15.13.22:489][713]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.13-15.13.22:489][713]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.13-15.13.22:497][713]LogWorldPartition: Display: WorldPartition initialize took 8.097 ms (total: 6.51 sec)
+[2025.07.13-15.13.22:497][713]LogPlayLevel: PIE: World Init took: (0.010385s)
+[2025.07.13-15.13.22:499][713]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2025.07.13-15.13.22:499][713]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.13-15.13.22:499][713]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.13-15.13.22:499][713]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.13-15.13.22:499][713]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.13-15.13.22:499][713]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.13-15.13.22:499][713]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.13-15.13.22:499][713]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.13-15.13.22:499][713]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.13-15.13.22:499][713]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.13-15.13.22:499][713]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.13-15.13.22:499][713]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.13-15.13.22:501][713]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.13-15.13.22:561][713]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.13-15.13.22:561][713]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.13-15.13.22:561][713]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.13-15.13.22:561][713]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.13-15.13.22:561][713]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2025.07.13-15.13.22:561][713]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2025.07.13-15.13.22:564][713]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2025.07.13-15.13.22:565][713]LogInit: FAudioDevice initialized with ID 48.
+[2025.07.13-15.13.22:565][713]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2025.07.13-15.13.22:565][713]LogAudio: Display: Audio Device (ID: 48) registered with world 'Lvl_FirstPerson'.
+[2025.07.13-15.13.22:565][713]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 48
+[2025.07.13-15.13.22:569][713]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.13-15.13.22:579][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:579][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:579][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:579][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:579][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:584][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:585][713]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.13-11.13.22
+[2025.07.13-15.13.22:586][713]LogWorld: Bringing up level for play took: 0.016155
+[2025.07.13-15.13.22:588][713]LogOnline: OSS: Created online subsystem instance for: :Context_100
+[2025.07.13-15.13.22:593][713]PIE: Server logged in
+[2025.07.13-15.13.22:596][713]PIE: Play in editor total start time 0.196 seconds.
+[2025.07.13-15.13.22:604][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:604][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.22:604][713]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.13.43:664][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.13-15.13.43:664][651]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.13-15.13.43:665][651]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.13-15.13.43:669][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.13-15.13.43:670][651]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.13-15.13.43:673][651]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.13-15.13.43:683][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.13-15.13.43:718][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.13-15.13.43:719][651]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 48
+[2025.07.13-15.13.43:719][651]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48, StreamState=4
+[2025.07.13-15.13.43:721][651]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48, StreamState=2
+[2025.07.13-15.13.43:733][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.07.13-15.13.43:866][652]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2025.07.13-15.14.02:735][464]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.13-15.14.02:750][464]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.13-15.14.02:751][464]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.13-15.14.02:754][464]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 4.500 ms (total: 167.246 ms)
+[2025.07.13-15.14.02:754][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.13-15.14.02:755][464]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.13-15.14.02:795][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:795][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:795][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:800][464]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.13-15.14.02:809][464]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 9.168 ms (total: 384.696 ms)
+[2025.07.13-15.14.02:809][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054724s)
+[2025.07.13-15.14.02:809][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.054790s)
+[2025.07.13-15.14.02:851][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.07.13-15.14.02:855][464]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.13-15.14.02:858][464]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.13-15.14.02:858][464]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.13-15.14.02:858][464]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.13-15.14.02:858][464]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.13-15.14.02:867][464]LogWorldPartition: Display: WorldPartition initialize took 9.240 ms (total: 6.52 sec)
+[2025.07.13-15.14.02:867][464]LogPlayLevel: PIE: World Init took: (0.011683s)
+[2025.07.13-15.14.02:869][464]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2025.07.13-15.14.02:869][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.13-15.14.02:869][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.13-15.14.02:869][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.13-15.14.02:869][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.13-15.14.02:869][464]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.13-15.14.02:869][464]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.13-15.14.02:869][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.13-15.14.02:869][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.13-15.14.02:869][464]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.13-15.14.02:869][464]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.13-15.14.02:869][464]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.13-15.14.02:871][464]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.13-15.14.02:928][464]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.13-15.14.02:928][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.13-15.14.02:929][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.13-15.14.02:929][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.13-15.14.02:929][464]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2025.07.13-15.14.02:929][464]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2025.07.13-15.14.02:932][464]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2025.07.13-15.14.02:933][464]LogInit: FAudioDevice initialized with ID 49.
+[2025.07.13-15.14.02:933][464]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2025.07.13-15.14.02:933][464]LogAudio: Display: Audio Device (ID: 49) registered with world 'Lvl_FirstPerson'.
+[2025.07.13-15.14.02:933][464]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 49
+[2025.07.13-15.14.02:938][464]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.13-15.14.02:947][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:947][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:947][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:947][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:947][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:952][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:952][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:952][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:952][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:953][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:954][464]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.13-11.14.02
+[2025.07.13-15.14.02:954][464]LogWorld: Bringing up level for play took: 0.015936
+[2025.07.13-15.14.02:957][464]LogOnline: OSS: Created online subsystem instance for: :Context_101
+[2025.07.13-15.14.02:961][464]PIE: Server logged in
+[2025.07.13-15.14.02:964][464]PIE: Play in editor total start time 0.215 seconds.
+[2025.07.13-15.14.02:972][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:972][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.02:972][464]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.13-15.14.32:023][901]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:043][902]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:063][903]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:083][904]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:103][905]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:122][906]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:143][907]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:162][908]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:183][909]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:205][910]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:224][911]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:248][912]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:271][913]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:294][914]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:314][915]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:333][916]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:353][917]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:373][918]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:392][919]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:412][920]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:432][921]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:451][922]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:471][923]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:491][924]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:510][925]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:530][926]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:549][927]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:576][928]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:598][929]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:619][930]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:639][931]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:659][932]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:679][933]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:698][934]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:717][935]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:738][936]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:758][937]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:777][938]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:797][939]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:818][940]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:836][941]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:858][942]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:876][943]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:900][944]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:924][945]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:945][946]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:966][947]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.32:986][948]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:006][949]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:028][950]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:047][951]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:067][952]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:084][953]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:104][954]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:125][955]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:144][956]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:163][957]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:184][958]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:202][959]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:228][960]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:251][961]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:272][962]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:293][963]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:313][964]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:332][965]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:351][966]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:370][967]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:392][968]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:410][969]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:430][970]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:450][971]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:471][972]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:490][973]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:510][974]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:529][975]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:554][976]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:579][977]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:599][978]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:619][979]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:640][980]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:659][981]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:679][982]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:699][983]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:720][984]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:740][985]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:760][986]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:781][987]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:800][988]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:819][989]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:840][990]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:860][991]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:884][992]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:911][993]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:933][994]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:952][995]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:972][996]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.33:993][997]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:011][998]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:031][999]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:051][  0]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:070][  1]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:092][  2]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:111][  3]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:133][  4]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:152][  5]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:171][  6]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:192][  7]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:218][  8]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:242][  9]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:264][ 10]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:284][ 11]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:305][ 12]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:327][ 13]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:344][ 14]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:364][ 15]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:385][ 16]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:405][ 17]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:425][ 18]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:446][ 19]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:465][ 20]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:486][ 21]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:506][ 22]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:526][ 23]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:550][ 24]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:575][ 25]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:596][ 26]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:616][ 27]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:635][ 28]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:655][ 29]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:674][ 30]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:695][ 31]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:714][ 32]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:733][ 33]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:754][ 34]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:773][ 35]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:793][ 36]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:813][ 37]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:832][ 38]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:852][ 39]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:877][ 40]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.34:901][ 41]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:674][128]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:695][129]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:715][130]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:735][131]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:755][132]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:775][133]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:794][134]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:816][135]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:839][136]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:863][137]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:884][138]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:906][139]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:925][140]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:948][141]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:967][142]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.36:987][143]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:009][144]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:029][145]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:049][146]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:069][147]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:091][148]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:112][149]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:132][150]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:152][151]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:179][152]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:205][153]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:225][154]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:246][155]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:267][156]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:286][157]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:308][158]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:329][159]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:351][160]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:371][161]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:393][162]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:414][163]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:434][164]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:456][165]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:476][166]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:497][167]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:521][168]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:548][169]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:569][170]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:590][171]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:611][172]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:632][173]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:652][174]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:673][175]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:698][176]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:715][177]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:735][178]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:755][179]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:776][180]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:797][181]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:819][182]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:838][183]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:867][184]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:888][185]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:911][186]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:932][187]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:953][188]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:975][189]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.37:996][190]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:017][191]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:037][192]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:058][193]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:078][194]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:097][195]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:116][196]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:137][197]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:157][198]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:177][199]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:203][200]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.38:227][201]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: ================================================
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Total job queries 3,117, among them cache hits 2,429 (77.93%), DDC hits 526 (16.88%), Duplicates 85 (2.73%)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Tracking 603 distinct input hashes that result in 393 distinct outputs (65.17%)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: RAM used: 4.19 MiB of 1.60 GiB budget. Usage: 0.26%
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Shaders Compiled: 77
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Jobs assigned 77, completed 77 (100%)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Average time worker was idle: 423.26 s
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.15 s
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Job execution time: average 1.08 s, max 2.67 s
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Job life time (pending + execution): average 1.14 s, max 2.82
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Shader code size: total 528.461 KiB, numShaders 82, average 6.444 KiB, min 3.266 KiB, max 12.805 KiB
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 37.49 s
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.18%
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Jobs were issued in 77 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Average processing rate: 2.05 jobs/sec
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Total thread time: 62.447 s
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Total thread preprocess time: 67.67 s
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Percentage time preprocessing: 108.36%
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Effective parallelization: 1.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.208202
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    5 times, average 1.63 sec, max 1.87 sec, min 1.39 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 1.48 sec, max 1.50 sec, min 1.47 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    3 times, average 1.32 sec, max 1.47 sec, min 1.06 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.99 sec, max 1.17 sec, min 0.85 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    2 times, average 0.98 sec, max 1.02 sec, min 0.94 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                                FMeshDecalsPS - 17.08% of total time (compiled   15 times, average 0.71 sec, max 0.87 sec, min 0.60 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                             FDebugViewModePS - 13.06% of total time (compiled    5 times, average 1.63 sec, max 1.87 sec, min 1.39 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.47% of total time (compiled    6 times, average 0.99 sec, max 1.17 sec, min 0.85 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                             FDeferredDecalPS - 6.69% of total time (compiled   14 times, average 0.30 sec, max 0.32 sec, min 0.28 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display:                                                FMeshDecalsVS - 6.35% of total time (compiled    6 times, average 0.66 sec, max 0.77 sec, min 0.62 sec)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: === Material stats ===
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Materials Translated:    576
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Material Total Translate Time: 0.38 s
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Material Translation Only: 0.18 s (47%)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Material DDC Serialization Only: 0.01 s (2%)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: Material Cache Hits: 91 (16%)
+[2025.07.13-15.14.43:019][437]LogShaderCompilers: Display: ================================================
+[2025.07.13-15.14.43:332][452]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4711.009277
+[2025.07.13-15.14.43:416][456]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.13-15.14.43:416][456]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4711.070312, Update Interval: 304.746246
+[2025.07.13-15.15.34:875][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.13-15.15.34:875][169]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.13-15.15.34:876][169]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.13-15.15.34:879][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.13-15.15.34:879][169]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.13-15.15.34:893][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.13-15.15.34:904][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.13-15.15.34:946][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.13-15.15.34:947][169]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 49
+[2025.07.13-15.15.34:947][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49, StreamState=4
+[2025.07.13-15.15.34:949][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49, StreamState=2
+[2025.07.13-15.15.34:962][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.07.13-15.15.35:083][170]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2025.07.13-15.15.37:564][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.07.13-15.15.39:271][282]LogSlate: Window 'Save Content' being destroyed
+[2025.07.13-15.15.39:765][282]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.13-15.15.39:875][282]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/UY/QQKF7HLJIHVU9AHBEBSZGT
+[2025.07.13-15.15.39:876][282]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/QQKF7HLJIHVU9AHBEBSZGT91F69E1F431D7B91F69EE3BE23D68F94.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/UY/QQKF7HLJIHVU9AHBEBSZGT.uasset'
+[2025.07.13-15.15.39:889][282]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/36/F4ZRK3F14S307AGOOHL8IN
+[2025.07.13-15.15.39:890][282]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/F4ZRK3F14S307AGOOHL8IN0FF3C7444FE038D55F90469AAFB67282.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/36/F4ZRK3F14S307AGOOHL8IN.uasset'
+[2025.07.13-15.15.39:901][282]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/SW/XJ0P7O5QCYFJD5U6KP9EK8
+[2025.07.13-15.15.39:902][282]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/XJ0P7O5QCYFJD5U6KP9EK8B08F072347D621A3A86E8F9863FB2203.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/SW/XJ0P7O5QCYFJD5U6KP9EK8.uasset'
+[2025.07.13-15.15.39:914][282]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/DT/7C970X9HMQLYNWP67X8H1K
+[2025.07.13-15.15.39:914][282]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/7C970X9HMQLYNWP67X8H1K6B166D164B79C6EA6316379EA4013DF8.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/DT/7C970X9HMQLYNWP67X8H1K.uasset'
+[2025.07.13-15.15.39:929][282]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.698 ms (total: 11.3 sec)
+[2025.07.13-15.15.40:026][282]LogContentValidation: Display: Starting to validate 4 assets
+[2025.07.13-15.15.40:026][282]LogContentValidation: Enabled validators:
+[2025.07.13-15.15.40:026][282]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.13-15.15.40:026][282]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.13-15.15.40:026][282]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.13-15.15.40:026][282]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.13-15.15.40:026][282]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.13-15.15.40:026][282]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.13-15.15.40:026][282]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
