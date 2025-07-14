@@ -7539,3 +7539,1014 @@ Make sure 'BP_ThirdPersonCharacter_C' has been compiled for  Play Foot Step Soun
 [2025.07.14-21.13.18:534][253]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.07.14-21.13.18:534][253]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.07.14-21.13.18:534][253]AssetCheck: /Game/Audio/footstepaudio/Footstep2fixed Validating asset
+[2025.07.14-21.13.58:939][285]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7106.934570
+[2025.07.14-21.13.59:941][288]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.14-21.13.59:941][288]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7107.602539, Update Interval: 306.245911
+[2025.07.14-21.14.06:482][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-21.14.06:498][513]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-21.14.06:498][513]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-21.14.06:500][513]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 2.195 ms (total: 143.503 ms)
+[2025.07.14-21.14.06:502][513]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.07.14-21.14.06:612][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2025.07.14-21.14.06:617][513]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2025.07.14-21.14.06:617][513]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.14.06:648][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:648][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:648][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:652][513]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-21.14.06:660][513]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.031 ms (total: 430.730 ms)
+[2025.07.14-21.14.06:660][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042880s)
+[2025.07.14-21.14.06:660][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.042920s)
+[2025.07.14-21.14.06:698][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.07.14-21.14.06:700][513]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-21.14.06:702][513]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-21.14.06:702][513]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-21.14.06:702][513]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-21.14.06:702][513]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-21.14.06:710][513]LogWorldPartition: Display: WorldPartition initialize took 8.019 ms (total: 8.48 sec)
+[2025.07.14-21.14.06:711][513]LogPlayLevel: PIE: World Init took: (0.010718s)
+[2025.07.14-21.14.06:712][513]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2025.07.14-21.14.06:712][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-21.14.06:712][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-21.14.06:712][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-21.14.06:712][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-21.14.06:712][513]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-21.14.06:712][513]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-21.14.06:712][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-21.14.06:712][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-21.14.06:712][513]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-21.14.06:712][513]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-21.14.06:712][513]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-21.14.06:714][513]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-21.14.06:774][513]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-21.14.06:775][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-21.14.06:775][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-21.14.06:775][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-21.14.06:775][513]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2025.07.14-21.14.06:775][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2025.07.14-21.14.06:778][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2025.07.14-21.14.06:778][513]LogInit: FAudioDevice initialized with ID 52.
+[2025.07.14-21.14.06:778][513]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2025.07.14-21.14.06:778][513]LogAudio: Display: Audio Device (ID: 52) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-21.14.06:778][513]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2025.07.14-21.14.06:783][513]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-21.14.06:793][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:793][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:793][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:793][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:793][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:798][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:799][513]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-17.14.06
+[2025.07.14-21.14.06:800][513]LogWorld: Bringing up level for play took: 0.016363
+[2025.07.14-21.14.06:802][513]LogOnline: OSS: Created online subsystem instance for: :Context_90
+[2025.07.14-21.14.06:808][513]PIE: Server logged in
+[2025.07.14-21.14.06:811][513]PIE: Play in editor total start time 0.313 seconds.
+[2025.07.14-21.14.06:818][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:819][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.06:819][513]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.14.23:145][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.14.23:145][204]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.14.23:146][204]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.14.23:149][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.14.23:150][204]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-21.14.23:152][204]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-21.14.23:161][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.14.23:198][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.14.23:200][204]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2025.07.14-21.14.23:200][204]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52, StreamState=4
+[2025.07.14-21.14.23:202][204]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52, StreamState=2
+[2025.07.14-21.14.23:216][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2025.07.14-21.14.23:343][205]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2025.07.14-21.14.30:999][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.07.14-21.14.30:999][609]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.14.30:999][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.14.31:288][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2025.07.14-21.14.46:302][169]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.07.14-21.14.46:317][169]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.07.14-21.14.46:337][169]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.07.14-21.14.46:389][170]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.07.14-21.14.51:895][439]LogContentBrowser: Attempting asset rename: NewBlueprint -> SmallCommode
+[2025.07.14-21.14.52:106][439]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.07.14-21.14.53:922][490]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode
+[2025.07.14-21.14.53:922][490]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_39
+[2025.07.14-21.14.56:685][545]LogSlate: Window 'SmallCommode' being destroyed
+[2025.07.14-21.16.34:237][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2025.07.14-21.17.13:206][469]LogDerivedDataCache: C:/Users/Blake/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.07.14-21.18.34:075][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2025.07.14-21.18.35:199][735]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-21.18.35:322][735]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/SmallCommode] ([2] browsable assets)...
+[2025.07.14-21.18.35:322][735]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_40
+[2025.07.14-21.18.35:359][735]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode]
+[2025.07.14-21.18.35:359][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/SmallCommode]
+[2025.07.14-21.18.35:359][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/SmallCommode" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/SmallCommode.uasset" SILENT=true
+[2025.07.14-21.18.35:376][735]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/SmallCommode
+[2025.07.14-21.18.35:376][735]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/SmallCommodeAD5656344342CF84FA212AB9487971E7.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/SmallCommode.uasset'
+[2025.07.14-21.18.35:684][735]LogFileHelpers: InternalPromptForCheckoutAndSave took 485.144 ms (total: 11.0 sec)
+[2025.07.14-21.18.35:805][735]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-21.18.35:805][735]LogContentValidation: Enabled validators:
+[2025.07.14-21.18.35:805][735]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-21.18.35:805][735]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-21.18.35:805][735]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-21.18.35:805][735]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-21.18.35:805][735]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-21.18.35:805][735]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-21.18.35:805][735]AssetCheck: /Game/GrabSystem/Blueprint/Actor/SmallCommode Validating asset
+[2025.07.14-21.19.08:880][383]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.07.14-21.19.10:072][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-21.19.10:167][435]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/SmallCommode] ([2] browsable assets)...
+[2025.07.14-21.19.10:186][435]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode]
+[2025.07.14-21.19.10:186][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/SmallCommode]
+[2025.07.14-21.19.10:186][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/SmallCommode" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/SmallCommode.uasset" SILENT=true
+[2025.07.14-21.19.10:204][435]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/SmallCommode
+[2025.07.14-21.19.10:205][435]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/SmallCommodeAA95C64D4E471AA06F50EDA956E820E0.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/SmallCommode.uasset'
+[2025.07.14-21.19.10:225][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.414 ms (total: 11.2 sec)
+[2025.07.14-21.19.10:319][435]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-21.19.10:319][435]LogContentValidation: Enabled validators:
+[2025.07.14-21.19.10:319][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-21.19.10:319][435]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-21.19.10:319][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-21.19.10:319][435]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-21.19.10:319][435]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-21.19.10:319][435]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-21.19.10:319][435]AssetCheck: /Game/GrabSystem/Blueprint/Actor/SmallCommode Validating asset
+[2025.07.14-21.19.20:017][758]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode_C
+[2025.07.14-21.19.20:017][758]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode_C
+[2025.07.14-21.19.20:023][758]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode as actor: SmallCommode_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.SmallCommode_C_0
+[2025.07.14-21.19.20:031][758]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode as actor: SmallCommode_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.SmallCommode_C_0
+[2025.07.14-21.19.20:878][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.07.14-21.19.20:889][782]LogEditorActor: Deleted 0 Actors (0.049 secs)
+[2025.07.14-21.19.20:897][782]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode_C
+[2025.07.14-21.19.20:897][782]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode_C
+[2025.07.14-21.19.20:901][782]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode as actor: SmallCommode_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.SmallCommode_C_UAID_04D4C45442E8787B02_1514710515
+[2025.07.14-21.19.20:906][782]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode as actor: SmallCommode_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.SmallCommode_C_UAID_04D4C45442E8787B02_1514710515
+[2025.07.14-21.19.54:973][173]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7462.966309
+[2025.07.14-21.19.55:088][179]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.14-21.19.55:088][179]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7463.026367, Update Interval: 338.971527
+[2025.07.14-21.20.16:759][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.07.14-21.20.18:210][981]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-21.20.18:227][981]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-21.20.18:227][981]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-21.20.18:229][981]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 2.629 ms (total: 146.133 ms)
+[2025.07.14-21.20.18:234][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-21.20.18:234][981]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.20.18:268][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:268][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:268][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:274][981]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-21.20.18:283][981]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.218 ms (total: 438.948 ms)
+[2025.07.14-21.20.18:283][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048697s)
+[2025.07.14-21.20.18:283][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.048739s)
+[2025.07.14-21.20.18:323][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.07.14-21.20.18:328][981]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-21.20.18:330][981]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-21.20.18:331][981]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-21.20.18:331][981]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-21.20.18:331][981]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-21.20.18:339][981]LogWorldPartition: Display: WorldPartition initialize took 8.526 ms (total: 8.49 sec)
+[2025.07.14-21.20.18:339][981]LogPlayLevel: PIE: World Init took: (0.010867s)
+[2025.07.14-21.20.18:340][981]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2025.07.14-21.20.18:340][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-21.20.18:341][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-21.20.18:341][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-21.20.18:341][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-21.20.18:341][981]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-21.20.18:341][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-21.20.18:341][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-21.20.18:341][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-21.20.18:341][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-21.20.18:341][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-21.20.18:341][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-21.20.18:343][981]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-21.20.18:402][981]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-21.20.18:402][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-21.20.18:402][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-21.20.18:402][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-21.20.18:403][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2025.07.14-21.20.18:403][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2025.07.14-21.20.18:406][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2025.07.14-21.20.18:406][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2025.07.14-21.20.18:406][981]LogInit: FAudioDevice initialized with ID 53.
+[2025.07.14-21.20.18:406][981]LogAudio: Display: Audio Device (ID: 53) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-21.20.18:406][981]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2025.07.14-21.20.18:411][981]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-21.20.18:421][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:421][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:421][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:421][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:421][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:426][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:427][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:428][981]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-17.20.18
+[2025.07.14-21.20.18:428][981]LogWorld: Bringing up level for play took: 0.017232
+[2025.07.14-21.20.18:431][981]LogOnline: OSS: Created online subsystem instance for: :Context_93
+[2025.07.14-21.20.18:437][981]PIE: Server logged in
+[2025.07.14-21.20.18:439][981]PIE: Play in editor total start time 0.213 seconds.
+[2025.07.14-21.20.18:449][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:449][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.18:449][981]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.24:346][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.20.24:346][244]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.20.24:347][244]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.20.24:351][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.20.24:351][244]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-21.20.24:356][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-21.20.24:367][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.20.24:406][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.20.24:406][244]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2025.07.14-21.20.24:406][244]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53, StreamState=4
+[2025.07.14-21.20.24:408][244]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53, StreamState=2
+[2025.07.14-21.20.24:420][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.07.14-21.20.24:506][245]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2025.07.14-21.20.37:121][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2025.07.14-21.20.38:209][465]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-21.20.38:229][465]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-21.20.38:229][465]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-21.20.38:231][465]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 2.698 ms (total: 148.832 ms)
+[2025.07.14-21.20.38:232][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-21.20.38:232][465]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.20.38:272][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:272][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:272][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:277][465]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-21.20.38:286][465]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.653 ms (total: 447.601 ms)
+[2025.07.14-21.20.38:286][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054132s)
+[2025.07.14-21.20.38:286][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.054181s)
+[2025.07.14-21.20.38:331][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2025.07.14-21.20.38:337][465]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-21.20.38:339][465]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-21.20.38:339][465]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-21.20.38:340][465]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-21.20.38:340][465]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-21.20.38:348][465]LogWorldPartition: Display: WorldPartition initialize took 8.713 ms (total: 8.50 sec)
+[2025.07.14-21.20.38:348][465]LogPlayLevel: PIE: World Init took: (0.011154s)
+[2025.07.14-21.20.38:350][465]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2025.07.14-21.20.38:350][465]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-21.20.38:350][465]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-21.20.38:350][465]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-21.20.38:350][465]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-21.20.38:350][465]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-21.20.38:350][465]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-21.20.38:350][465]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-21.20.38:350][465]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-21.20.38:350][465]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-21.20.38:350][465]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-21.20.38:350][465]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-21.20.38:352][465]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-21.20.38:420][465]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-21.20.38:421][465]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-21.20.38:421][465]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-21.20.38:421][465]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-21.20.38:421][465]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2025.07.14-21.20.38:421][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2025.07.14-21.20.38:425][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2025.07.14-21.20.38:425][465]LogInit: FAudioDevice initialized with ID 54.
+[2025.07.14-21.20.38:425][465]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2025.07.14-21.20.38:425][465]LogAudio: Display: Audio Device (ID: 54) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-21.20.38:425][465]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2025.07.14-21.20.38:430][465]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-21.20.38:441][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:441][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:441][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:441][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:441][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:447][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:448][465]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-17.20.38
+[2025.07.14-21.20.38:449][465]LogWorld: Bringing up level for play took: 0.018223
+[2025.07.14-21.20.38:452][465]LogOnline: OSS: Created online subsystem instance for: :Context_94
+[2025.07.14-21.20.38:458][465]PIE: Server logged in
+[2025.07.14-21.20.38:461][465]PIE: Play in editor total start time 0.232 seconds.
+[2025.07.14-21.20.38:470][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:470][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.38:470][465]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.41:106][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.20.41:106][582]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.20.41:107][582]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.20.41:111][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.20.41:112][582]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-21.20.41:117][582]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-21.20.41:128][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.20.41:171][582]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.14-21.20.41:171][582]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2025.07.14-21.20.41:172][582]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54, StreamState=4
+[2025.07.14-21.20.41:175][582]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54, StreamState=2
+[2025.07.14-21.20.41:184][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.20.41:194][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2025.07.14-21.20.41:293][583]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2025.07.14-21.20.45:976][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2025.07.14-21.20.49:524][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.07.14-21.20.50:821][359]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-21.20.50:835][359]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-21.20.50:835][359]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-21.20.50:838][359]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 2.729 ms (total: 151.561 ms)
+[2025.07.14-21.20.50:838][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-21.20.50:839][359]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.20.50:876][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.50:876][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.50:876][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.50:880][359]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-21.20.50:888][359]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.423 ms (total: 456.024 ms)
+[2025.07.14-21.20.50:888][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049493s)
+[2025.07.14-21.20.50:888][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.049543s)
+[2025.07.14-21.20.50:929][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.07.14-21.20.50:934][359]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-21.20.50:936][359]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-21.20.50:936][359]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-21.20.50:937][359]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-21.20.50:937][359]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-21.20.50:945][359]LogWorldPartition: Display: WorldPartition initialize took 8.321 ms (total: 8.51 sec)
+[2025.07.14-21.20.50:945][359]LogPlayLevel: PIE: World Init took: (0.010772s)
+[2025.07.14-21.20.50:946][359]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2025.07.14-21.20.50:946][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-21.20.50:946][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-21.20.50:946][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-21.20.50:946][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-21.20.50:946][359]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-21.20.50:946][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-21.20.50:946][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-21.20.50:946][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-21.20.50:946][359]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-21.20.50:946][359]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-21.20.50:946][359]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-21.20.50:948][359]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-21.20.51:010][359]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-21.20.51:010][359]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-21.20.51:010][359]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-21.20.51:010][359]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-21.20.51:011][359]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2025.07.14-21.20.51:011][359]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2025.07.14-21.20.51:014][359]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2025.07.14-21.20.51:014][359]LogInit: FAudioDevice initialized with ID 55.
+[2025.07.14-21.20.51:014][359]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2025.07.14-21.20.51:014][359]LogAudio: Display: Audio Device (ID: 55) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-21.20.51:014][359]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2025.07.14-21.20.51:020][359]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-21.20.51:031][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:031][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:031][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:031][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:031][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:036][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:037][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:038][359]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-17.20.51
+[2025.07.14-21.20.51:038][359]LogWorld: Bringing up level for play took: 0.017897
+[2025.07.14-21.20.51:041][359]LogOnline: OSS: Created online subsystem instance for: :Context_95
+[2025.07.14-21.20.51:046][359]PIE: Server logged in
+[2025.07.14-21.20.51:049][359]PIE: Play in editor total start time 0.214 seconds.
+[2025.07.14-21.20.51:057][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:057][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.51:057][359]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.20.58:737][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.20.58:737][707]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.20.58:738][707]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.20.58:742][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.20.58:742][707]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-21.20.58:748][707]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-21.20.58:758][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.20.58:795][707]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.14-21.20.58:795][707]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2025.07.14-21.20.58:795][707]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55, StreamState=4
+[2025.07.14-21.20.58:797][707]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55, StreamState=2
+[2025.07.14-21.20.58:803][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.20.58:809][707]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.07.14-21.20.58:891][708]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2025.07.14-21.21.01:455][805]Cmd: DELETE
+[2025.07.14-21.21.01:455][805]Cmd: ACTOR DELETE
+[2025.07.14-21.21.01:459][805]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-21.21.01:505][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.07.14-21.21.01:509][805]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2025.07.14-21.21.02:107][824]Cmd: DELETE
+[2025.07.14-21.21.02:107][824]Cmd: ACTOR DELETE
+[2025.07.14-21.21.02:112][824]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-21.21.02:156][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.07.14-21.21.02:160][824]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2025.07.14-21.21.02:638][838]Cmd: DELETE
+[2025.07.14-21.21.02:638][838]Cmd: ACTOR DELETE
+[2025.07.14-21.21.02:641][838]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-21.21.02:683][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.07.14-21.21.02:688][838]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2025.07.14-21.21.03:233][853]Cmd: DELETE
+[2025.07.14-21.21.03:233][853]Cmd: ACTOR DELETE
+[2025.07.14-21.21.03:238][853]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-21.21.03:279][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.07.14-21.21.03:284][853]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2025.07.14-21.21.03:776][868]Cmd: DELETE
+[2025.07.14-21.21.03:776][868]Cmd: ACTOR DELETE
+[2025.07.14-21.21.03:779][868]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-21.21.03:823][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.07.14-21.21.03:828][868]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2025.07.14-21.21.04:451][891]Cmd: DELETE
+[2025.07.14-21.21.04:451][891]Cmd: ACTOR DELETE
+[2025.07.14-21.21.04:454][891]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-21.21.04:493][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.07.14-21.21.04:497][891]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2025.07.14-21.21.11:228][178]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-21.21.11:243][178]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-21.21.11:243][178]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-21.21.11:246][178]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 3.302 ms (total: 154.863 ms)
+[2025.07.14-21.21.11:247][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-21.21.11:247][178]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.21.11:280][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:280][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:280][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:284][178]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-21.21.11:292][178]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.452 ms (total: 464.477 ms)
+[2025.07.14-21.21.11:292][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045217s)
+[2025.07.14-21.21.11:292][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.045273s)
+[2025.07.14-21.21.11:337][178]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.07.14-21.21.11:344][178]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-21.21.11:347][178]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-21.21.11:347][178]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-21.21.11:347][178]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-21.21.11:347][178]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-21.21.11:355][178]LogWorldPartition: Display: WorldPartition initialize took 8.662 ms (total: 8.52 sec)
+[2025.07.14-21.21.11:355][178]LogPlayLevel: PIE: World Init took: (0.011251s)
+[2025.07.14-21.21.11:357][178]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2025.07.14-21.21.11:357][178]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-21.21.11:357][178]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-21.21.11:357][178]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-21.21.11:357][178]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-21.21.11:357][178]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-21.21.11:357][178]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-21.21.11:357][178]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-21.21.11:357][178]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-21.21.11:357][178]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-21.21.11:357][178]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-21.21.11:357][178]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-21.21.11:360][178]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-21.21.11:422][178]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-21.21.11:422][178]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-21.21.11:422][178]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-21.21.11:422][178]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-21.21.11:423][178]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2025.07.14-21.21.11:423][178]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2025.07.14-21.21.11:426][178]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2025.07.14-21.21.11:426][178]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2025.07.14-21.21.11:426][178]LogInit: FAudioDevice initialized with ID 56.
+[2025.07.14-21.21.11:426][178]LogAudio: Display: Audio Device (ID: 56) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-21.21.11:426][178]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2025.07.14-21.21.11:431][178]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-21.21.11:440][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:440][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:440][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:440][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:440][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:446][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:446][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:446][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:446][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:446][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:446][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:447][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:450][178]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-17.21.11
+[2025.07.14-21.21.11:453][178]LogWorld: Bringing up level for play took: 0.021654
+[2025.07.14-21.21.11:457][178]LogOnline: OSS: Created online subsystem instance for: :Context_96
+[2025.07.14-21.21.11:468][178]PIE: Server logged in
+[2025.07.14-21.21.11:471][178]PIE: Play in editor total start time 0.228 seconds.
+[2025.07.14-21.21.11:480][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:480][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.11:480][178]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.34:313][306]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:336][307]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:357][308]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:376][309]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:395][310]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:414][311]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:434][312]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:453][313]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:473][314]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:492][315]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:514][316]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:531][317]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:550][318]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:573][319]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:591][320]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:609][321]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:633][322]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:655][323]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:677][324]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:695][325]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.34:716][326]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:542][617]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:560][618]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:580][619]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:598][620]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:617][621]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:635][622]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:653][623]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:673][624]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:692][625]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:716][626]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:739][627]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:760][628]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:779][629]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:797][630]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:817][631]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:836][632]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:855][633]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:875][634]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:893][635]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:913][636]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:933][637]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:951][638]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:971][639]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.40:990][640]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:010][641]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:034][642]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:058][643]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:081][644]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:099][645]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:118][646]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:136][647]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:153][648]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:172][649]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:190][650]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:210][651]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:227][652]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:246][653]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:265][654]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:287][655]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:305][656]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:324][657]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:345][658]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:368][659]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:389][660]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:408][661]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:427][662]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:446][663]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:469][664]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:488][665]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:506][666]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:525][667]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:543][668]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:569][669]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:590][670]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:607][671]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:623][672]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:643][673]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:664][674]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:685][675]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.41:706][676]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:503][711]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:521][712]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:542][713]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:562][714]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:580][715]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:600][716]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:620][717]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:639][718]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:658][719]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:677][720]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:697][721]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:721][722]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:740][723]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:761][724]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:779][725]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:799][726]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:819][727]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:839][728]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:858][729]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:876][730]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:896][731]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:915][732]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:938][733]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:956][734]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:975][735]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.42:997][736]LogCharacter: BP_ThirdPersonCharacter_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2025.07.14-21.21.47:616][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.21.47:616][983]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.21.47:616][983]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.21.47:622][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.21.47:622][983]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-21.21.47:628][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-21.21.47:642][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.21.47:683][983]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.14-21.21.47:683][983]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2025.07.14-21.21.47:684][983]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56, StreamState=4
+[2025.07.14-21.21.47:686][983]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56, StreamState=2
+[2025.07.14-21.21.47:693][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.21.47:699][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2025.07.14-21.21.47:791][984]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2025.07.14-21.21.50:536][ 85]Cmd: DELETE
+[2025.07.14-21.21.50:536][ 85]Cmd: ACTOR DELETE
+[2025.07.14-21.21.50:540][ 85]LogEditorActor: Deleted Actor: PointLight
+[2025.07.14-21.21.50:585][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.07.14-21.21.50:589][ 85]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2025.07.14-21.21.53:306][225]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-21.21.53:322][225]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-21.21.53:322][225]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-21.21.53:326][225]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 4.291 ms (total: 159.155 ms)
+[2025.07.14-21.21.53:327][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-21.21.53:327][225]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.21.53:363][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:363][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:363][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:369][225]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-21.21.53:379][225]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 9.910 ms (total: 474.388 ms)
+[2025.07.14-21.21.53:379][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052429s)
+[2025.07.14-21.21.53:379][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.052475s)
+[2025.07.14-21.21.53:420][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.07.14-21.21.53:423][225]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-21.21.53:426][225]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-21.21.53:426][225]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-21.21.53:426][225]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-21.21.53:426][225]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-21.21.53:434][225]LogWorldPartition: Display: WorldPartition initialize took 7.903 ms (total: 8.52 sec)
+[2025.07.14-21.21.53:434][225]LogPlayLevel: PIE: World Init took: (0.010726s)
+[2025.07.14-21.21.53:435][225]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2025.07.14-21.21.53:436][225]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-21.21.53:436][225]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-21.21.53:436][225]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-21.21.53:436][225]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-21.21.53:436][225]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-21.21.53:436][225]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-21.21.53:436][225]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-21.21.53:436][225]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-21.21.53:436][225]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-21.21.53:436][225]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-21.21.53:436][225]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-21.21.53:438][225]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-21.21.53:498][225]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-21.21.53:498][225]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-21.21.53:498][225]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-21.21.53:498][225]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-21.21.53:499][225]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2025.07.14-21.21.53:499][225]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2025.07.14-21.21.53:503][225]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2025.07.14-21.21.53:503][225]LogInit: FAudioDevice initialized with ID 57.
+[2025.07.14-21.21.53:503][225]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2025.07.14-21.21.53:503][225]LogAudio: Display: Audio Device (ID: 57) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-21.21.53:503][225]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2025.07.14-21.21.53:508][225]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-21.21.53:518][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:518][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:518][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:518][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:518][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:524][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:525][225]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-17.21.53
+[2025.07.14-21.21.53:526][225]LogWorld: Bringing up level for play took: 0.017518
+[2025.07.14-21.21.53:528][225]LogOnline: OSS: Created online subsystem instance for: :Context_97
+[2025.07.14-21.21.53:534][225]PIE: Server logged in
+[2025.07.14-21.21.53:537][225]PIE: Play in editor total start time 0.215 seconds.
+[2025.07.14-21.21.53:545][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:545][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.21.53:545][225]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.17:006][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.22.17:006][457]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.22.17:007][457]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.22.17:011][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.22.17:011][457]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-21.22.17:015][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-21.22.17:028][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.22.17:071][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.22.17:073][457]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2025.07.14-21.22.17:073][457]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57, StreamState=4
+[2025.07.14-21.22.17:076][457]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57, StreamState=2
+[2025.07.14-21.22.17:090][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.07.14-21.22.17:152][458]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2025.07.14-21.22.21:659][653]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-21.22.21:676][653]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-21.22.21:676][653]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-21.22.21:682][653]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 5.572 ms (total: 164.728 ms)
+[2025.07.14-21.22.21:682][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-21.22.21:683][653]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.22.21:717][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:717][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:717][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:721][653]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-21.22.21:729][653]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.026 ms (total: 482.414 ms)
+[2025.07.14-21.22.21:729][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046807s)
+[2025.07.14-21.22.21:729][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.046868s)
+[2025.07.14-21.22.21:772][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.07.14-21.22.21:776][653]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-21.22.21:779][653]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-21.22.21:779][653]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-21.22.21:779][653]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-21.22.21:779][653]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-21.22.21:787][653]LogWorldPartition: Display: WorldPartition initialize took 8.205 ms (total: 8.53 sec)
+[2025.07.14-21.22.21:787][653]LogPlayLevel: PIE: World Init took: (0.010735s)
+[2025.07.14-21.22.21:788][653]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2025.07.14-21.22.21:789][653]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-21.22.21:789][653]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-21.22.21:789][653]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-21.22.21:789][653]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-21.22.21:789][653]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-21.22.21:789][653]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-21.22.21:789][653]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-21.22.21:789][653]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-21.22.21:789][653]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-21.22.21:789][653]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-21.22.21:789][653]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-21.22.21:791][653]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-21.22.21:853][653]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-21.22.21:853][653]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-21.22.21:853][653]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-21.22.21:853][653]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-21.22.21:854][653]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2025.07.14-21.22.21:854][653]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2025.07.14-21.22.21:858][653]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2025.07.14-21.22.21:858][653]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2025.07.14-21.22.21:858][653]LogInit: FAudioDevice initialized with ID 58.
+[2025.07.14-21.22.21:858][653]LogAudio: Display: Audio Device (ID: 58) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-21.22.21:858][653]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2025.07.14-21.22.21:863][653]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-21.22.21:873][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:873][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:873][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:873][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:873][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:879][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:880][653]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-17.22.21
+[2025.07.14-21.22.21:881][653]LogWorld: Bringing up level for play took: 0.017633
+[2025.07.14-21.22.21:884][653]LogOnline: OSS: Created online subsystem instance for: :Context_98
+[2025.07.14-21.22.21:889][653]PIE: Server logged in
+[2025.07.14-21.22.21:893][653]PIE: Play in editor total start time 0.216 seconds.
+[2025.07.14-21.22.21:901][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:901][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.21:901][653]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.27:497][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.22.27:497][941]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.22.27:497][941]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.22.27:502][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.22.27:502][941]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-21.22.27:507][941]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-21.22.27:518][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.22.27:558][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.22.27:560][941]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2025.07.14-21.22.27:560][941]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58, StreamState=4
+[2025.07.14-21.22.27:562][941]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58, StreamState=2
+[2025.07.14-21.22.27:574][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2025.07.14-21.22.27:662][942]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2025.07.14-21.22.32:419][150]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-21.22.32:434][150]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-21.22.32:434][150]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-21.22.32:437][150]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 2.948 ms (total: 167.676 ms)
+[2025.07.14-21.22.32:438][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-21.22.32:438][150]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.22.32:470][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:470][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:470][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:473][150]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-21.22.32:482][150]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.102 ms (total: 490.516 ms)
+[2025.07.14-21.22.32:482][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043818s)
+[2025.07.14-21.22.32:482][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.043859s)
+[2025.07.14-21.22.32:518][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.07.14-21.22.32:520][150]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-21.22.32:522][150]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-21.22.32:522][150]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-21.22.32:522][150]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-21.22.32:522][150]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-21.22.32:530][150]LogWorldPartition: Display: WorldPartition initialize took 8.287 ms (total: 8.54 sec)
+[2025.07.14-21.22.32:530][150]LogPlayLevel: PIE: World Init took: (0.010544s)
+[2025.07.14-21.22.32:532][150]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2025.07.14-21.22.32:532][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-21.22.32:532][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-21.22.32:532][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-21.22.32:532][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-21.22.32:532][150]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-21.22.32:532][150]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-21.22.32:532][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-21.22.32:532][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-21.22.32:532][150]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-21.22.32:532][150]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-21.22.32:532][150]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-21.22.32:534][150]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-21.22.32:594][150]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-21.22.32:594][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-21.22.32:594][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-21.22.32:594][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-21.22.32:595][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2025.07.14-21.22.32:595][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2025.07.14-21.22.32:598][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2025.07.14-21.22.32:598][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2025.07.14-21.22.32:598][150]LogInit: FAudioDevice initialized with ID 59.
+[2025.07.14-21.22.32:598][150]LogAudio: Display: Audio Device (ID: 59) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-21.22.32:598][150]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 59
+[2025.07.14-21.22.32:603][150]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-21.22.32:612][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:612][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:612][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:612][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:612][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:618][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:619][150]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-17.22.32
+[2025.07.14-21.22.32:620][150]LogWorld: Bringing up level for play took: 0.016620
+[2025.07.14-21.22.32:622][150]LogOnline: OSS: Created online subsystem instance for: :Context_99
+[2025.07.14-21.22.32:628][150]PIE: Server logged in
+[2025.07.14-21.22.32:631][150]PIE: Play in editor total start time 0.197 seconds.
+[2025.07.14-21.22.32:639][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:639][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.22.32:639][150]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-21.23.00:957][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.23.00:957][750]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-21.23.00:957][750]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-21.23.00:964][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.23.00:964][750]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-21.23.00:968][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-21.23.00:981][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-21.23.01:028][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-21.23.01:030][750]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 59
+[2025.07.14-21.23.01:030][750]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59, StreamState=4
+[2025.07.14-21.23.01:032][750]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59, StreamState=2
+[2025.07.14-21.23.01:047][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2025.07.14-21.23.01:136][751]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2025.07.14-21.23.02:623][799]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2025.07.14-21.23.03:508][799]LogSlate: Window 'Save Content' being destroyed
+[2025.07.14-21.23.04:683][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-21.23.05:533][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.07.14-21.23.05:568][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.07.14-21.23.05:607][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.07.14-21.23.07:216][799]SourceControl: Error: Updated 0 paths from the index
+[2025.07.14-21.23.08:120][799]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/7Y/JYT0YTBYWA30QR3SCPUNSV.uasset'
+[2025.07.14-21.23.08:120][799]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/7I/WOF13QCGM1QXLNZTE54HEB.uasset'
+[2025.07.14-21.23.08:120][799]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/ST/HLP3CXF6SK4ZGJY4G14V2I.uasset'
+[2025.07.14-21.23.08:120][799]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/M7/K56BAM9WSA35D59LCFOUWZ.uasset'
+[2025.07.14-21.23.08:120][799]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/AD/QQF4UNMVCLUJO32VLT8JVG.uasset'
+[2025.07.14-21.23.08:120][799]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/WC/D8MUGHUKF8QW9BP3CUUXS3.uasset'
+[2025.07.14-21.23.08:120][799]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/7I/WU1T4EPD6TRM6RZ3WT9GHL.uasset'
+[2025.07.14-21.23.08:134][799]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/SmallCommode] ([2] browsable assets)...
+[2025.07.14-21.23.08:243][799]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/SmallCommode.SmallCommode]
+[2025.07.14-21.23.08:243][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/SmallCommode]
+[2025.07.14-21.23.08:243][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/SmallCommode" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/SmallCommode.uasset" SILENT=true
+[2025.07.14-21.23.08:260][799]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/SmallCommode
+[2025.07.14-21.23.08:261][799]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/SmallCommode762950F9419DBD2A35E0DFA39481615F.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/SmallCommode.uasset'
+[2025.07.14-21.23.08:273][799]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/ZW/DEZ2H1UM95ZGX2RBO47SVQ
+[2025.07.14-21.23.08:273][799]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/DEZ2H1UM95ZGX2RBO47SVQ66B17E8943CBD85FD406E9948A1EF100.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/ZW/DEZ2H1UM95ZGX2RBO47SVQ.uasset'
+[2025.07.14-21.23.08:286][799]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/OM/R59J4P9X7O3D7XTXJHG5RD
+[2025.07.14-21.23.08:287][799]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/R59J4P9X7O3D7XTXJHG5RDEE7EFCE44C34B9274D727DBE127FC70C.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/OM/R59J4P9X7O3D7XTXJHG5RD.uasset'
+[2025.07.14-21.23.08:571][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.88 sec (total: 15.1 sec)
+[2025.07.14-21.23.08:747][799]LogContentValidation: Display: Starting to validate 3 assets
+[2025.07.14-21.23.08:747][799]LogContentValidation: Enabled validators:
+[2025.07.14-21.23.08:747][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-21.23.08:747][799]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-21.23.08:747][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-21.23.08:747][799]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-21.23.08:747][799]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-21.23.08:747][799]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-21.23.08:747][799]AssetCheck: /Game/GrabSystem/Blueprint/Actor/SmallCommode Validating asset
+[2025.07.14-21.23.08:747][799]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2025.07.14-21.23.10:961][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-21.23.11:112][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.07.14-21.23.11:162][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2025.07.14-21.23.11:202][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.07.14-21.23.11:220][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 259.164 ms (total: 15.3 sec)
