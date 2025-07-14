@@ -3613,3 +3613,757 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.07.14-17.47.16:489][673]AssetCheck: /Game/GrabSystem/Blueprint/Actor/closetdoorv2/StaticMeshes/closetdoorv2 Validating asset
 [2025.07.14-17.47.16:489][673]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
 [2025.07.14-17.47.16:489][673]AssetCheck: /Game/Materials/plywood Validating asset
+[2025.07.14-17.48.11:675][377]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-17.48.11:688][377]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-17.48.11:689][377]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-17.48.11:693][377]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 3.603 ms (total: 30.534 ms)
+[2025.07.14-17.48.11:693][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-17.48.11:693][377]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-17.48.11:728][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:728][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:728][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:732][377]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-17.48.11:740][377]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.007 ms (total: 83.756 ms)
+[2025.07.14-17.48.11:740][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046673s)
+[2025.07.14-17.48.11:740][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.046732s)
+[2025.07.14-17.48.11:775][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.07.14-17.48.11:779][377]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-17.48.11:781][377]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-17.48.11:781][377]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-17.48.11:781][377]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-17.48.11:781][377]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-17.48.11:789][377]LogWorldPartition: Display: WorldPartition initialize took 8.085 ms (total: 1.07 sec)
+[2025.07.14-17.48.11:789][377]LogPlayLevel: PIE: World Init took: (0.010295s)
+[2025.07.14-17.48.11:790][377]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.07.14-17.48.11:790][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-17.48.11:790][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-17.48.11:790][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-17.48.11:790][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-17.48.11:790][377]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-17.48.11:790][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-17.48.11:790][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-17.48.11:790][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-17.48.11:790][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-17.48.11:790][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-17.48.11:790][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-17.48.11:793][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-17.48.11:872][377]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-17.48.11:872][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-17.48.11:872][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-17.48.11:872][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-17.48.11:873][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.07.14-17.48.11:873][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.07.14-17.48.11:879][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.07.14-17.48.11:879][377]LogInit: FAudioDevice initialized with ID 10.
+[2025.07.14-17.48.11:879][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.07.14-17.48.11:879][377]LogAudio: Display: Audio Device (ID: 10) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-17.48.11:879][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.07.14-17.48.11:884][377]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-17.48.11:896][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:896][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:896][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:896][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:896][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:902][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:905][377]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-13.48.11
+[2025.07.14-17.48.11:905][377]LogWorld: Bringing up level for play took: 0.019884
+[2025.07.14-17.48.11:908][377]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.07.14-17.48.11:913][377]PIE: Server logged in
+[2025.07.14-17.48.11:916][377]PIE: Play in editor total start time 0.227 seconds.
+[2025.07.14-17.48.11:924][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:924][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.11:924][377]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.43:907][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-17.48.43:907][965]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-17.48.43:908][965]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-17.48.43:912][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-17.48.43:912][965]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-17.48.43:914][965]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-17.48.43:923][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-17.48.43:961][965]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.14-17.48.43:962][965]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.07.14-17.48.43:962][965]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.07.14-17.48.43:964][965]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.07.14-17.48.43:972][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-17.48.43:978][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2025.07.14-17.48.44:031][966]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.07.14-17.48.48:946][149]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/GrabSystem/Blueprint/Actor/closetdoor/StaticMeshes/closetdoor.closetdoor
+[2025.07.14-17.48.48:966][149]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2025.07.14-17.48.48:981][149]LogStreaming: Display: FlushAsyncLoading(848): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.14-17.48.49:049][149]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2025.07.14-17.48.57:721][545]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-17.48.57:850][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/closetdoor/StaticMeshes/closetdoor] ([1] browsable assets)...
+[2025.07.14-17.48.57:868][545]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/GrabSystem/Blueprint/Actor/closetdoor/StaticMeshes/closetdoor.closetdoor]
+[2025.07.14-17.48.57:868][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/closetdoor/StaticMeshes/closetdoor]
+[2025.07.14-17.48.57:890][545]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/closetdoor/StaticMeshes/closetdoor
+[2025.07.14-17.48.57:891][545]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/closetdoor09495D4B4692B9823B6A348BB20A0E8D.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/closetdoor/StaticMeshes/closetdoor.uasset'
+[2025.07.14-17.48.57:909][545]LogFileHelpers: InternalPromptForCheckoutAndSave took 188.384 ms (total: 4.26 sec)
+[2025.07.14-17.48.58:029][545]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-17.48.58:029][545]LogContentValidation: Enabled validators:
+[2025.07.14-17.48.58:029][545]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-17.48.58:029][545]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-17.48.58:029][545]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-17.48.58:029][545]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-17.48.58:029][545]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-17.48.58:029][545]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-17.48.58:029][545]AssetCheck: /Game/GrabSystem/Blueprint/Actor/closetdoor/StaticMeshes/closetdoor Validating asset
+[2025.07.14-17.48.59:238][600]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-17.48.59:254][600]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-17.48.59:254][600]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-17.48.59:256][600]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 2.910 ms (total: 33.445 ms)
+[2025.07.14-17.48.59:256][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-17.48.59:257][600]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-17.48.59:290][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:290][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:290][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:294][600]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-17.48.59:302][600]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.009 ms (total: 91.765 ms)
+[2025.07.14-17.48.59:302][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046114s)
+[2025.07.14-17.48.59:302][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.046176s)
+[2025.07.14-17.48.59:357][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.07.14-17.48.59:361][600]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-17.48.59:363][600]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-17.48.59:363][600]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-17.48.59:363][600]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-17.48.59:363][600]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-17.48.59:371][600]LogWorldPartition: Display: WorldPartition initialize took 8.284 ms (total: 1.07 sec)
+[2025.07.14-17.48.59:371][600]LogPlayLevel: PIE: World Init took: (0.010440s)
+[2025.07.14-17.48.59:372][600]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.07.14-17.48.59:373][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-17.48.59:373][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-17.48.59:373][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-17.48.59:373][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-17.48.59:373][600]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-17.48.59:373][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-17.48.59:373][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-17.48.59:373][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-17.48.59:373][600]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-17.48.59:373][600]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-17.48.59:373][600]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-17.48.59:375][600]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-17.48.59:449][600]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-17.48.59:449][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-17.48.59:449][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-17.48.59:449][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-17.48.59:450][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.07.14-17.48.59:450][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.07.14-17.48.59:454][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.07.14-17.48.59:455][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.07.14-17.48.59:455][600]LogInit: FAudioDevice initialized with ID 11.
+[2025.07.14-17.48.59:455][600]LogAudio: Display: Audio Device (ID: 11) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-17.48.59:455][600]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.07.14-17.48.59:461][600]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-17.48.59:474][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:474][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:474][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:474][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:474][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:481][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:482][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:483][600]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-13.48.59
+[2025.07.14-17.48.59:484][600]LogWorld: Bringing up level for play took: 0.022692
+[2025.07.14-17.48.59:487][600]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.07.14-17.48.59:493][600]PIE: Server logged in
+[2025.07.14-17.48.59:496][600]PIE: Play in editor total start time 0.243 seconds.
+[2025.07.14-17.48.59:504][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:504][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.48.59:504][600]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.49.01:486][677]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.49.01:486][677]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.49.01:486][677]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.49.20:448][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-17.49.20:448][572]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-17.49.20:448][572]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-17.49.20:452][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-17.49.20:452][572]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-17.49.20:460][572]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-17.49.20:469][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-17.49.20:509][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-17.49.20:509][572]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.07.14-17.49.20:509][572]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.07.14-17.49.20:511][572]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.07.14-17.49.20:527][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2025.07.14-17.49.20:654][573]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.07.14-17.49.47:219][728]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Posters/MADTWINSSCHIZO_Mat.MADTWINSSCHIZO_Mat
+[2025.07.14-17.49.47:272][728]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.07.14-17.49.47:654][728]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.49.47:654][728]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.49.47:654][728]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.49.48:312][728]MaterialEditorStats: Texture samplers: 0/16
+[2025.07.14-17.49.48:312][728]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.07.14-17.49.48:312][728]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.07.14-17.49.48:312][728]MaterialEditorStats: Shader Count: 0
+[2025.07.14-17.49.48:312][728]MaterialEditorStats: Preshaders: 4  (6 param fetches, 24 ops)
+[2025.07.14-17.49.48:539][730]MaterialEditorStats: Base pass shader: 182 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.07.14-17.49.48:539][730]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.07.14-17.49.48:539][730]MaterialEditorStats: Texture samplers: 2/16
+[2025.07.14-17.49.48:539][730]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.07.14-17.49.48:540][730]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.07.14-17.49.48:540][730]MaterialEditorStats: Shader Count: 4
+[2025.07.14-17.49.48:540][730]MaterialEditorStats: Preshaders: 4  (6 param fetches, 24 ops)
+[2025.07.14-17.49.58:714][200]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/TableSet01/Materials/MI_Wood02.MI_Wood02
+[2025.07.14-17.49.58:718][200]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.07.14-17.49.59:925][200]LogSlate: Took 0.000463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.07.14-17.50.05:171][686]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/TableSet01/Materials/Master/M_Mat.M_Mat
+[2025.07.14-17.50.05:179][686]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.07.14-17.50.05:471][686]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.50.05:472][686]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.50.05:472][686]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.50.06:300][686]MaterialEditorStats: Texture samplers: 0/16
+[2025.07.14-17.50.06:300][686]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.07.14-17.50.06:300][686]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.07.14-17.50.06:300][686]MaterialEditorStats: Shader Count: 0
+[2025.07.14-17.50.06:301][686]MaterialEditorStats: Preshaders: 11  (11 param fetches, 16 ops)
+[2025.07.14-17.50.06:594][688]MaterialEditorStats: Base pass shader: 218 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.07.14-17.50.06:594][688]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.07.14-17.50.06:594][688]MaterialEditorStats: Texture samplers: 4/16
+[2025.07.14-17.50.06:594][688]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.07.14-17.50.06:594][688]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.07.14-17.50.06:594][688]MaterialEditorStats: Shader Count: 4
+[2025.07.14-17.50.06:594][688]MaterialEditorStats: Preshaders: 11  (11 param fetches, 16 ops)
+[2025.07.14-17.50.12:885][979]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-17.50.12:885][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-17.50.13:038][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2025.07.14-17.50.13:700][  8]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-17.50.13:700][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-17.50.13:788][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2025.07.14-17.50.14:909][ 59]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-17.50.14:909][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-17.50.14:980][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2025.07.14-17.50.16:176][112]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-17.50.16:176][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-17.50.16:251][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.07.14-17.50.23:731][553]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/BasicShapes/Cone.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/BasicShapes/Cone.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.50.23:731][553]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow2_1mm.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow2_1mm.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.50.33:193][ 96]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/BasicShapes/Cone.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/BasicShapes/Cone.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.50.33:193][ 96]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow2_1mm.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow2_1mm.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.50.36:482][238]LogMaterial: Display: Material /Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master.M_Blend_Wood-A_Master needed to have new flag set bUsedWithNanite !
+[2025.07.14-17.50.36:495][238]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.50.36:495][238]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.50.36:495][238]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: ================================================
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Total job queries 1,006, among them cache hits 326 (32.41%), DDC hits 543 (53.98%), Duplicates 86 (8.55%)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Tracking 594 distinct input hashes that result in 403 distinct outputs (67.85%)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: RAM used: 4.48 MiB of 1.60 GiB budget. Usage: 0.27%
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Shaders Compiled: 47
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Jobs assigned 51, completed 47 (92.16%)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Average time worker was idle: 515.68 s
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Job execution time: average 3.20 s, max 7.90 s
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Job life time (pending + execution): average 3.27 s, max 8.00
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Shader code size: total 629.211 KiB, numShaders 51, average 12.337 KiB, min 3.516 KiB, max 29.883 KiB
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 48.14 s
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Jobs were issued in 47 batches (only local compilation was used), average 1.09 jobs/batch
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Average processing rate: 0.98 jobs/sec
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Total thread time: 117.105 s
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Total thread preprocess time: 26.54 s
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Percentage time preprocessing: 22.66%
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Effective parallelization: 2.43 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.304073
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    5 times, average 5.23 sec, max 6.62 sec, min 4.22 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    4 times, average 4.70 sec, max 4.90 sec, min 4.32 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    5 times, average 4.34 sec, max 5.34 sec, min 3.47 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 4.04 sec, max 4.42 sec, min 3.65 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    1 times, average 2.04 sec, max 2.04 sec, min 2.04 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 22.33% of total time (compiled    5 times, average 5.23 sec, max 6.62 sec, min 4.22 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                                                 FLumenCardCS - 18.52% of total time (compiled    5 times, average 4.34 sec, max 5.34 sec, min 3.47 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 16.05% of total time (compiled    4 times, average 4.70 sec, max 4.90 sec, min 4.32 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.01% of total time (compiled   11 times, average 1.17 sec, max 1.94 sec, min 0.87 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.90% of total time (compiled    2 times, average 4.04 sec, max 4.42 sec, min 3.65 sec)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: === Material stats ===
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Materials Translated:    276
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Material Total Translate Time: 0.27 s
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Material Translation Only: 0.15 s (55%)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Material DDC Serialization Only: 0.01 s (3%)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: Material Cache Hits: 101 (37%)
+[2025.07.14-17.50.38:794][317]LogShaderCompilers: Display: ================================================
+[2025.07.14-17.52.07:166][684]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4074.063477
+[2025.07.14-17.52.07:252][687]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.14-17.52.07:252][688]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4074.118408, Update Interval: 339.473267
+[2025.07.14-17.52.16:111][274]LogEditorTransaction: Undo Modify Component(s)
+[2025.07.14-17.52.20:852][522]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.52.20:852][522]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.52.20:852][522]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.52.20:852][522]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.52.41:818][814]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/BasicShapes/Cone.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/BasicShapes/Cone.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.53.01:206][ 43]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.53.01:206][ 43]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.53.01:206][ 43]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.53.01:206][ 43]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.53.24:822][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.07.14-17.53.25:618][541]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-17.53.25:735][541]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP] ([2] browsable assets)...
+[2025.07.14-17.53.25:759][541]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP]
+[2025.07.14-17.53.25:759][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP]
+[2025.07.14-17.53.25:759][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset" SILENT=true
+[2025.07.14-17.53.25:784][541]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP
+[2025.07.14-17.53.25:785][541]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/ClosetDoorBPEBEB980B41A7A0AB0C1882A205EF7F5A.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset'
+[2025.07.14-17.53.25:800][541]LogFileHelpers: InternalPromptForCheckoutAndSave took 182.009 ms (total: 4.44 sec)
+[2025.07.14-17.53.25:893][541]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-17.53.25:893][541]LogContentValidation: Enabled validators:
+[2025.07.14-17.53.25:893][541]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-17.53.25:893][541]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-17.53.25:893][541]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-17.53.25:893][541]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-17.53.25:893][541]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-17.53.25:893][541]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-17.53.25:893][541]AssetCheck: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP Validating asset
+[2025.07.14-17.53.35:043][920]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP_C
+[2025.07.14-17.53.35:043][920]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP_C
+[2025.07.14-17.53.35:046][920]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP as actor: ClosetDoorBP_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.ClosetDoorBP_C_0
+[2025.07.14-17.53.35:051][920]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP as actor: ClosetDoorBP_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.ClosetDoorBP_C_0
+[2025.07.14-17.53.35:061][920]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.07.14-17.53.36:281][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2025.07.14-17.53.36:333][960]LogEditorActor: Deleted 0 Actors (0.093 secs)
+[2025.07.14-17.53.36:343][960]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP_C
+[2025.07.14-17.53.36:343][960]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP_C
+[2025.07.14-17.53.36:350][960]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP as actor: ClosetDoorBP_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.ClosetDoorBP_C_UAID_04D4C45442E86C7B02_2055058414
+[2025.07.14-17.53.36:355][960]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP as actor: ClosetDoorBP_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.ClosetDoorBP_C_UAID_04D4C45442E86C7B02_2055058414
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: ================================================
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: Total job queries 1,006, among them cache hits 326 (32.41%), DDC hits 543 (53.98%), Duplicates 86 (8.55%)
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: Tracking 594 distinct input hashes that result in 407 distinct outputs (68.52%)
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: RAM used: 4.55 MiB of 1.60 GiB budget. Usage: 0.28%
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: Shaders Compiled: 51
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: Jobs assigned 51, completed 51 (100%)
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: Average time worker was idle: 515.68 s
+[2025.07.14-17.53.38:833][ 59]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Job execution time: average 3.32 s, max 7.90 s
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Job life time (pending + execution): average 3.38 s, max 8.00
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Shader code size: total 709.324 KiB, numShaders 55, average 12.896 KiB, min 3.516 KiB, max 29.883 KiB
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 51.39 s
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Jobs were issued in 47 batches (only local compilation was used), average 1.09 jobs/batch
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Average processing rate: 0.99 jobs/sec
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Total thread time: 133.888 s
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Total thread preprocess time: 26.748 s
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Percentage time preprocessing: 19.98%
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Effective parallelization: 2.61 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.325669
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    6 times, average 5.14 sec, max 6.62 sec, min 4.22 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    5 times, average 4.71 sec, max 4.90 sec, min 4.32 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    6 times, average 4.25 sec, max 5.34 sec, min 3.47 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 3.88 sec, max 4.42 sec, min 3.56 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    1 times, average 2.04 sec, max 2.04 sec, min 2.04 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 23.05% of total time (compiled    6 times, average 5.14 sec, max 6.62 sec, min 4.22 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                                                 FLumenCardCS - 19.02% of total time (compiled    6 times, average 4.25 sec, max 5.34 sec, min 3.47 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 17.57% of total time (compiled    5 times, average 4.71 sec, max 4.90 sec, min 4.32 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.63% of total time (compiled   11 times, average 1.17 sec, max 1.94 sec, min 0.87 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.69% of total time (compiled    3 times, average 3.88 sec, max 4.42 sec, min 3.56 sec)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: === Material stats ===
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Materials Translated:    276
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Material Total Translate Time: 0.27 s
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Material Translation Only: 0.15 s (55%)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Material DDC Serialization Only: 0.01 s (3%)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: Material Cache Hits: 101 (37%)
+[2025.07.14-17.53.38:834][ 59]LogShaderCompilers: Display: ================================================
+[2025.07.14-17.54.09:462][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.07.14-17.54.09:482][664]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/BR/B50AG678OFVZ1LNCTLOWTN_Auto5
+[2025.07.14-17.54.09:482][664]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/B50AG678OFVZ1LNCTLOWTN_Auto5325F87054E7B70E16F9B86BC17C214E1.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/BR/B50AG678OFVZ1LNCTLOWTN_Auto5.uasset'
+[2025.07.14-17.54.09:483][664]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.062
+[2025.07.14-17.54.09:483][664]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.062
+[2025.07.14-17.54.09:485][664]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master] ([1] browsable assets)...
+[2025.07.14-17.54.09:577][664]OBJ SavePackage:     Rendered thumbnail for [Material /Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master.M_Blend_Wood-A_Master]
+[2025.07.14-17.54.09:577][664]OBJ SavePackage: Finished generating thumbnails for package [/Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master]
+[2025.07.14-17.54.09:600][664]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master_Auto5
+[2025.07.14-17.54.09:600][664]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/M_Blend_Wood-A_Master_Auto5A17EE8144315D28916573793C38B15D6.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Saved/Autosaves/Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master_Auto5.uasset'
+[2025.07.14-17.54.09:601][664]LogFileHelpers: Auto-saving content packages took 0.118
+[2025.07.14-17.54.51:959][ 13]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content/VREditor/UI/FrameMaterial.uasset: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/VREditor/UI/FrameMaterial.uasset' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.54.51:959][ 13]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content/Materials: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content/Materials' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.54.58:971][340]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content/Materials: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content/Materials' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.55.04:922][652]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content/Materials: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content/Materials' is outside repository at 'D:/cyrpto-protocol'
+[2025.07.14-17.55.16:627][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.07.14-17.55.17:423][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-17.55.17:541][219]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP] ([2] browsable assets)...
+[2025.07.14-17.55.17:554][219]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP]
+[2025.07.14-17.55.17:554][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP]
+[2025.07.14-17.55.17:554][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset" SILENT=true
+[2025.07.14-17.55.17:572][219]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP
+[2025.07.14-17.55.17:573][219]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/ClosetDoorBP28106F8B4F6082323CE44D82527B808E.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset'
+[2025.07.14-17.55.17:588][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 163.865 ms (total: 4.60 sec)
+[2025.07.14-17.55.17:701][219]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-17.55.17:701][219]LogContentValidation: Enabled validators:
+[2025.07.14-17.55.17:701][219]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-17.55.17:701][219]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-17.55.17:701][219]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-17.55.17:701][219]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-17.55.17:701][219]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-17.55.17:701][219]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-17.55.17:701][219]AssetCheck: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP Validating asset
+[2025.07.14-17.56.04:811][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.07.14-17.56.05:577][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-17.56.05:701][817]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP] ([2] browsable assets)...
+[2025.07.14-17.56.05:713][817]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP]
+[2025.07.14-17.56.05:713][817]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP]
+[2025.07.14-17.56.05:713][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset" SILENT=true
+[2025.07.14-17.56.05:730][817]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP
+[2025.07.14-17.56.05:730][817]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/ClosetDoorBP66B1B01A4F14B59894E1FFB4BF0DD75E.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset'
+[2025.07.14-17.56.05:746][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.536 ms (total: 4.77 sec)
+[2025.07.14-17.56.05:865][817]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-17.56.05:866][817]LogContentValidation: Enabled validators:
+[2025.07.14-17.56.05:866][817]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-17.56.05:866][817]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-17.56.05:866][817]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-17.56.05:866][817]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-17.56.05:866][817]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-17.56.05:866][817]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-17.56.05:866][817]AssetCheck: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP Validating asset
+[2025.07.14-17.56.18:379][349]Cmd: MODE GRID=1
+[2025.07.14-17.56.18:379][349]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'MODE'. 
+[2025.07.14-17.56.36:946][189]Cmd: DELETE
+[2025.07.14-17.56.36:946][189]Cmd: ACTOR DELETE
+[2025.07.14-17.56.36:949][189]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-17.56.36:993][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.07.14-17.56.37:004][189]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: ================================================
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Total job queries 1,028, among them cache hits 335 (32.59%), DDC hits 555 (53.99%), Duplicates 86 (8.37%)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Tracking 607 distinct input hashes that result in 416 distinct outputs (68.53%)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: RAM used: 4.61 MiB of 1.60 GiB budget. Usage: 0.28%
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Shaders Compiled: 52
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Jobs assigned 52, completed 52 (100%)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Average time worker was idle: 509.33 s
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Job execution time: average 3.28 s, max 7.90 s
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Job life time (pending + execution): average 3.34 s, max 8.00
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Shader code size: total 720.301 KiB, numShaders 56, average 12.862 KiB, min 3.516 KiB, max 29.883 KiB
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 52.95 s
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Jobs were issued in 48 batches (only local compilation was used), average 1.08 jobs/batch
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Average processing rate: 0.98 jobs/sec
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Total thread time: 135.054 s
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Total thread preprocess time: 27.301 s
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Percentage time preprocessing: 20.21%
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Effective parallelization: 2.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.318849
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    6 times, average 5.14 sec, max 6.62 sec, min 4.22 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    5 times, average 4.71 sec, max 4.90 sec, min 4.32 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    6 times, average 4.25 sec, max 5.34 sec, min 3.47 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 3.88 sec, max 4.42 sec, min 3.56 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    1 times, average 2.04 sec, max 2.04 sec, min 2.04 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 22.85% of total time (compiled    6 times, average 5.14 sec, max 6.62 sec, min 4.22 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                                                 FLumenCardCS - 18.86% of total time (compiled    6 times, average 4.25 sec, max 5.34 sec, min 3.47 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 17.42% of total time (compiled    5 times, average 4.71 sec, max 4.90 sec, min 4.32 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.41% of total time (compiled   12 times, average 1.17 sec, max 1.94 sec, min 0.87 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.62% of total time (compiled    3 times, average 3.88 sec, max 4.42 sec, min 3.56 sec)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: === Material stats ===
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Materials Translated:    276
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Material Total Translate Time: 0.27 s
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Material Translation Only: 0.15 s (55%)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Material DDC Serialization Only: 0.01 s (3%)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: Material Cache Hits: 101 (37%)
+[2025.07.14-17.56.38:849][276]LogShaderCompilers: Display: ================================================
+[2025.07.14-17.56.40:528][354]Cmd: DELETE
+[2025.07.14-17.56.40:528][354]Cmd: ACTOR DELETE
+[2025.07.14-17.56.40:531][354]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-17.56.40:589][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.07.14-17.56.40:595][354]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2025.07.14-17.57.09:770][987]Cmd: MODE GRID=0
+[2025.07.14-17.57.39:438][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.07.14-17.57.40:192][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-17.57.40:302][892]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP] ([2] browsable assets)...
+[2025.07.14-17.57.40:316][892]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP.ClosetDoorBP]
+[2025.07.14-17.57.40:316][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP]
+[2025.07.14-17.57.40:316][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset" SILENT=true
+[2025.07.14-17.57.40:333][892]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP
+[2025.07.14-17.57.40:335][892]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/ClosetDoorBPA6169CED471699A3BB70C3AAF748581B.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset'
+[2025.07.14-17.57.40:352][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.220 ms (total: 4.93 sec)
+[2025.07.14-17.57.40:473][892]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-17.57.40:473][892]LogContentValidation: Enabled validators:
+[2025.07.14-17.57.40:473][892]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-17.57.40:473][892]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-17.57.40:473][892]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-17.57.40:473][892]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-17.57.40:473][892]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-17.57.40:473][892]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-17.57.40:473][892]AssetCheck: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP Validating asset
+[2025.07.14-17.57.57:683][638]LogContentBrowser: Attempting asset rename: ClosetDoorBP -> LeftClosetDoorBP
+[2025.07.14-17.57.59:830][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-17.57.59:830][638]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/LeftClosetDoorBP] ([2] browsable assets)...
+[2025.07.14-17.57.59:830][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/LeftClosetDoorBP]
+[2025.07.14-17.57.59:830][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/LeftClosetDoorBP" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/LeftClosetDoorBP.uasset" SILENT=true
+[2025.07.14-17.57.59:846][638]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/LeftClosetDoorBP
+[2025.07.14-17.57.59:847][638]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/LeftClosetDoorBP2D8AA341419FB6182D118E99ECC7BF99.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/LeftClosetDoorBP.uasset'
+[2025.07.14-17.57.59:854][638]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP] ([5] browsable assets)...
+[2025.07.14-17.57.59:854][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP]
+[2025.07.14-17.57.59:854][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/ClosetDoorBP" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset" SILENT=true
+[2025.07.14-17.57.59:865][638]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP
+[2025.07.14-17.57.59:866][638]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/ClosetDoorBPEEE5F9EE4D5A48924592819008F85171.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/ClosetDoorBP.uasset'
+[2025.07.14-17.58.00:186][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 356.220 ms (total: 5.29 sec)
+[2025.07.14-17.58.00:316][638]LogContentValidation: Display: Starting to validate 4 assets
+[2025.07.14-17.58.00:316][638]LogContentValidation: Enabled validators:
+[2025.07.14-17.58.00:316][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-17.58.00:316][638]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-17.58.00:316][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-17.58.00:316][638]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-17.58.00:316][638]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-17.58.00:316][638]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-17.58.00:316][638]AssetCheck: /Game/GrabSystem/Blueprint/Actor/LeftClosetDoorBP Validating asset
+[2025.07.14-17.58.00:316][638]AssetCheck: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP Validating asset
+[2025.07.14-17.58.00:316][638]AssetCheck: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP Validating asset
+[2025.07.14-17.58.00:316][638]AssetCheck: /Game/GrabSystem/Blueprint/Actor/ClosetDoorBP Validating asset
+[2025.07.14-17.58.00:333][638]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.07.14-17.58.02:756][700]LogContentBrowser: Deferred new asset file creation: LeftClosetDoorBP1
+[2025.07.14-17.58.02:773][700]LogContentBrowser: Creating deferred item: LeftClosetDoorBP1
+[2025.07.14-17.58.02:819][701]LogContentBrowser: Renaming the item being created (Deferred Item: LeftClosetDoorBP1).
+[2025.07.14-17.58.09:454][ 36]LogContentBrowser: Attempting asset rename: LeftClosetDoorBP1 -> RightClosetDoorBP
+[2025.07.14-17.58.09:713][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.07.14-17.58.09:942][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-17.58.10:066][ 36]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP] ([2] browsable assets)...
+[2025.07.14-17.58.10:066][ 36]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.07.14-17.58.10:163][ 36]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP]
+[2025.07.14-17.58.10:163][ 36]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP]
+[2025.07.14-17.58.10:163][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/RightClosetDoorBP.uasset" SILENT=true
+[2025.07.14-17.58.10:177][ 36]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP
+[2025.07.14-17.58.10:177][ 36]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/RightClosetDoorBPE4234AEB458EEC8985699FA6C09708CA.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/RightClosetDoorBP.uasset'
+[2025.07.14-17.58.10:461][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 519.417 ms (total: 5.81 sec)
+[2025.07.14-17.58.11:052][ 36]LogContentBrowser: End creating deferred item LeftClosetDoorBP1
+[2025.07.14-17.58.11:173][ 36]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-17.58.11:173][ 36]LogContentValidation: Enabled validators:
+[2025.07.14-17.58.11:173][ 36]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-17.58.11:173][ 36]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-17.58.11:173][ 36]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-17.58.11:173][ 36]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-17.58.11:173][ 36]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-17.58.11:173][ 36]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-17.58.11:173][ 36]AssetCheck: /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP Validating asset
+[2025.07.14-17.58.14:892][174]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP
+[2025.07.14-17.58.14:892][174]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2025.07.14-17.58.28:507][983]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4455.402832
+[2025.07.14-17.58.28:564][987]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.14-17.58.28:564][987]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4455.444824, Update Interval: 338.634613
+[2025.07.14-17.58.36:006][420]Cmd: MODE GRID=1
+[2025.07.14-17.59.23:710][324]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.07.14-17.59.25:008][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-17.59.25:100][388]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP] ([2] browsable assets)...
+[2025.07.14-17.59.25:112][388]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP]
+[2025.07.14-17.59.25:112][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP]
+[2025.07.14-17.59.25:112][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP" FILE="D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/RightClosetDoorBP.uasset" SILENT=true
+[2025.07.14-17.59.25:127][388]LogSavePackage: Moving output files for package: /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP
+[2025.07.14-17.59.25:128][388]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/RightClosetDoorBP8AF93C5F46C2D9FFDBD28EB112C6246E.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/GrabSystem/Blueprint/Actor/RightClosetDoorBP.uasset'
+[2025.07.14-17.59.25:142][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.403 ms (total: 5.94 sec)
+[2025.07.14-17.59.25:259][388]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.14-17.59.25:259][388]LogContentValidation: Enabled validators:
+[2025.07.14-17.59.25:259][388]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-17.59.25:259][388]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-17.59.25:259][388]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-17.59.25:259][388]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-17.59.25:259][388]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-17.59.25:259][388]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-17.59.25:259][388]AssetCheck: /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP Validating asset
+[2025.07.14-17.59.28:786][536]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP_C
+[2025.07.14-17.59.28:786][536]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP_C
+[2025.07.14-17.59.28:790][536]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP as actor: RightClosetDoorBP_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.RightClosetDoorBP_C_0
+[2025.07.14-17.59.28:795][536]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP as actor: RightClosetDoorBP_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.RightClosetDoorBP_C_0
+[2025.07.14-17.59.29:720][563]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2025.07.14-17.59.29:772][563]LogEditorActor: Deleted 0 Actors (0.097 secs)
+[2025.07.14-17.59.29:782][563]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP_C
+[2025.07.14-17.59.29:782][563]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP_C
+[2025.07.14-17.59.29:790][563]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP as actor: RightClosetDoorBP_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.RightClosetDoorBP_C_UAID_04D4C45442E86D7B02_1334755591
+[2025.07.14-17.59.29:796][563]LogActorFactory: Actor Factory spawned Blueprint /Game/GrabSystem/Blueprint/Actor/RightClosetDoorBP.RightClosetDoorBP as actor: RightClosetDoorBP_C /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.RightClosetDoorBP_C_UAID_04D4C45442E86D7B02_1334755591
+[2025.07.14-18.00.04:389][158]Cmd: DELETE
+[2025.07.14-18.00.04:389][158]Cmd: ACTOR DELETE
+[2025.07.14-18.00.04:394][158]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-18.00.04:440][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.07.14-18.00.04:452][158]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2025.07.14-18.00.05:421][200]Cmd: DELETE
+[2025.07.14-18.00.05:421][200]Cmd: ACTOR DELETE
+[2025.07.14-18.00.05:426][200]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.07.14-18.00.05:478][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.07.14-18.00.05:482][200]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2025.07.14-18.00.08:568][350]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.14-18.00.08:585][350]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.07.14-18.00.08:585][350]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.07.14-18.00.08:587][350]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 2.645 ms (total: 36.090 ms)
+[2025.07.14-18.00.08:587][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.14-18.00.08:588][350]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-18.00.08:621][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:621][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:622][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:626][350]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.07.14-18.00.08:634][350]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.326 ms (total: 100.092 ms)
+[2025.07.14-18.00.08:634][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046048s)
+[2025.07.14-18.00.08:634][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.046089s)
+[2025.07.14-18.00.08:670][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.07.14-18.00.08:673][350]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.07.14-18.00.08:675][350]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.14-18.00.08:675][350]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.14-18.00.08:675][350]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.14-18.00.08:675][350]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.14-18.00.08:684][350]LogWorldPartition: Display: WorldPartition initialize took 8.479 ms (total: 1.08 sec)
+[2025.07.14-18.00.08:684][350]LogPlayLevel: PIE: World Init took: (0.011052s)
+[2025.07.14-18.00.08:685][350]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.07.14-18.00.08:685][350]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.14-18.00.08:685][350]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.14-18.00.08:685][350]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.14-18.00.08:685][350]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.14-18.00.08:685][350]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.14-18.00.08:685][350]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.14-18.00.08:685][350]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.14-18.00.08:685][350]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.14-18.00.08:685][350]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.14-18.00.08:685][350]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.14-18.00.08:685][350]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.14-18.00.08:687][350]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.14-18.00.08:754][350]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.07.14-18.00.08:755][350]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.14-18.00.08:755][350]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.14-18.00.08:755][350]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.14-18.00.08:756][350]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.07.14-18.00.08:756][350]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.07.14-18.00.08:759][350]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.07.14-18.00.08:759][350]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.07.14-18.00.08:759][350]LogInit: FAudioDevice initialized with ID 12.
+[2025.07.14-18.00.08:759][350]LogAudio: Display: Audio Device (ID: 12) registered with world 'Lvl_FirstPerson'.
+[2025.07.14-18.00.08:759][350]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.07.14-18.00.08:764][350]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.07.14-18.00.08:774][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:775][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:775][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:775][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:775][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:780][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:781][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:781][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:781][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:781][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:781][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:781][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:781][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:781][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:782][350]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.07.14-14.00.08
+[2025.07.14-18.00.08:782][350]LogWorld: Bringing up level for play took: 0.017963
+[2025.07.14-18.00.08:785][350]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2025.07.14-18.00.08:790][350]PIE: Server logged in
+[2025.07.14-18.00.08:793][350]PIE: Play in editor total start time 0.208 seconds.
+[2025.07.14-18.00.08:800][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:801][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.08:801][350]LogStaticMesh: Warning: Invalid material [Glass_mat] used on Nanite static mesh [PhotoFrame]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.07.14-18.00.26:938][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-18.00.26:938][110]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.07.14-18.00.26:938][110]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.07.14-18.00.26:941][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-18.00.26:941][110]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.07.14-18.00.26:964][110]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.14-18.00.26:972][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.14-18.00.27:013][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.14-18.00.27:014][110]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.07.14-18.00.27:014][110]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.07.14-18.00.27:017][110]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.07.14-18.00.27:032][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2025.07.14-18.00.27:082][111]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2025.07.14-18.00.31:003][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.07.14-18.00.31:967][278]LogSlate: Window 'Save Content' being destroyed
+[2025.07.14-18.00.32:871][278]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.14-18.00.33:471][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.07.14-18.00.33:508][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.07.14-18.00.33:550][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.07.14-18.00.34:994][278]SourceControl: Error: Updated 0 paths from the index
+[2025.07.14-18.00.35:637][278]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/BT/RDF8BLGBTMHJWRL585YORF.uasset'
+[2025.07.14-18.00.35:637][278]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/AG/WXF12EI69G9HEFWIYX591O.uasset'
+[2025.07.14-18.00.35:637][278]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/K8/GXD4FTGPMTQ3H2J0NOJPAC.uasset'
+[2025.07.14-18.00.35:637][278]SourceControl: rm 'CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/LY/MBOPYQCWVVHINK41377TTH.uasset'
+[2025.07.14-18.00.35:663][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/BR/B50AG678OFVZ1LNCTLOWTN
+[2025.07.14-18.00.35:663][278]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/B50AG678OFVZ1LNCTLOWTN95848376490B3681BFFAF98300EE85A7.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/BR/B50AG678OFVZ1LNCTLOWTN.uasset'
+[2025.07.14-18.00.35:664][278]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master] ([1] browsable assets)...
+[2025.07.14-18.00.35:664][278]OBJ SavePackage: Finished generating thumbnails for package [/Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master]
+[2025.07.14-18.00.35:684][278]LogSavePackage: Moving output files for package: /Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master
+[2025.07.14-18.00.35:684][278]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/M_Blend_Wood-A_Master9E4265594053BF5B12D28CB6458B68C1.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/LookoutTower/Materials/Master/M_Blend_Wood-A_Master.uasset'
+[2025.07.14-18.00.35:697][278]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/TB/FMP3MDBPEMYH1LEP0RPX3Q
+[2025.07.14-18.00.35:697][278]LogSavePackage: Moving 'D:/cyrpto-protocol/CryptoProtocol/Saved/FMP3MDBPEMYH1LEP0RPX3QB853E4094ED36D534671B49DE452DBA1.tmp' to 'D:/cyrpto-protocol/CryptoProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/TB/FMP3MDBPEMYH1LEP0RPX3Q.uasset'
+[2025.07.14-18.00.36:110][278]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.23 sec (total: 9.18 sec)
+[2025.07.14-18.00.36:234][278]LogContentValidation: Display: Starting to validate 3 assets
+[2025.07.14-18.00.36:234][278]LogContentValidation: Enabled validators:
+[2025.07.14-18.00.36:234][278]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.14-18.00.36:234][278]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.14-18.00.36:234][278]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.14-18.00.36:234][278]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.14-18.00.36:234][278]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.14-18.00.36:234][278]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.14-18.00.36:234][278]AssetCheck: /Game/LookoutTower/Materials/Master/M_Blend_Wood-A_Master Validating asset
+[2025.07.14-18.00.36:234][278]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
